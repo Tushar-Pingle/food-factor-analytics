@@ -1,6 +1,8 @@
 """
 Food Factor Analytics — POS Analysis CLI Entry Point
 
+Unified pipeline: Ingest → Analyze → Chart → Standardize → Validate.
+
 Usage:
     python -m pos_analysis.main --system square --data-dir ./data/client/
     python -m pos_analysis.main --system touchbistro --data-dir ./data/client/
@@ -12,6 +14,8 @@ import logging
 import sys
 from pathlib import Path
 from typing import Optional
+
+from config.settings import OUTPUT_DIR
 
 logger = logging.getLogger("food_factor")
 
@@ -26,73 +30,187 @@ def setup_logging(verbose: bool = False) -> None:
     )
 
 
-def run_square(data_dir: Path, output_dir: Optional[Path] = None) -> None:
-    """Run the Square POS analysis pipeline."""
-    from pos_analysis.square.main import main as square_main
+# ── Square ───────────────────────────────────────────────────────────────
+
+def run_square(data_dir: Path, output_dir: Path) -> None:
+    """Run the Square POS analysis pipeline with standardization."""
+    from pos_analysis.square.ingest import SquareDataLoader
+    from pos_analysis.square.analysis import (
+        SalesAnalyzer,
+        PaymentAnalyzer,
+        DeliveryAnalyzer,
+        ReservationAnalyzer,
+        OperationalFlagAnalyzer,
+    )
+    from pos_analysis.square.labor import LaborAnalyzer
+    from pos_analysis.shared.menu_engineering import MenuEngineeringAnalyzer
+    from pos_analysis.square.standardize import standardize_all
 
     logger.info("Starting Square POS analysis pipeline")
     logger.info("Data directory: %s", data_dir)
-    # Square's main() reads from its own settings; we override if needed
-    square_main()
+
+    # Step 1: Ingest
+    loader = SquareDataLoader(str(data_dir))
+    dataset = loader.load_all()
+    logger.info("Loaded Square data: %s", dataset.summary())
+
+    # Step 2: Analyze
+    results = {}
+    results["sales"] = SalesAnalyzer(dataset).run_all()
+    logger.info("Sales analysis complete")
+
+    results["payments"] = PaymentAnalyzer(dataset).run_all()
+    logger.info("Payment analysis complete")
+
+    results["labor"] = LaborAnalyzer(dataset).run_all()
+    logger.info("Labor analysis complete")
+
+    results["delivery"] = DeliveryAnalyzer(dataset).run_all()
+    logger.info("Delivery analysis complete")
+
+    results["reservations"] = ReservationAnalyzer(dataset).run_all()
+    logger.info("Reservation analysis complete")
+
+    results["ops_flags"] = OperationalFlagAnalyzer(dataset).run_all()
+    logger.info("Operational flags complete")
+
+    try:
+        results["menu"] = MenuEngineeringAnalyzer(dataset.items).run_all()
+        logger.info("Menu engineering complete")
+    except Exception as e:
+        logger.warning("Menu engineering skipped: %s", e)
+        results["menu"] = {}
+
+    # Step 3: Charts
+    try:
+        from pos_analysis.square.visualizations import generate_all_charts
+        chart_dir = output_dir / "charts"
+        chart_dir.mkdir(parents=True, exist_ok=True)
+        generate_all_charts(results, str(chart_dir))
+        logger.info("Charts generated")
+    except Exception as e:
+        logger.warning("Chart generation failed: %s", e)
+
+    # Step 4: Standardize
+    standardize_all(results, dataset, output_dir)
+    logger.info("Output standardized")
 
 
-def run_touchbistro(data_dir: Path, output_dir: Optional[Path] = None) -> None:
-    """Run the TouchBistro POS analysis pipeline."""
+# ── TouchBistro ──────────────────────────────────────────────────────────
+
+def run_touchbistro(data_dir: Path, output_dir: Path) -> None:
+    """Run the TouchBistro POS analysis pipeline with standardization."""
     from pos_analysis.touchbistro.ingest import load_all
     from pos_analysis.touchbistro.analysis import (
         run_sales_analysis,
         run_payment_analysis,
         run_operational_flags,
     )
+    from pos_analysis.touchbistro.standardize import standardize_all
 
     logger.info("Starting TouchBistro POS analysis pipeline")
     logger.info("Data directory: %s", data_dir)
 
-    # Load data
+    # Step 1: Ingest
     datasets = load_all(str(data_dir))
     logger.info("Loaded %d datasets", len(datasets))
 
-    # Run analyses
-    sales_results = run_sales_analysis(datasets)
-    logger.info("Sales analysis complete: %d metrics", len(sales_results))
+    # Step 2: Analyze
+    results = {}
+    results["sales"] = run_sales_analysis(datasets)
+    logger.info("Sales analysis complete: %d metrics", len(results["sales"]))
 
-    payment_results = run_payment_analysis(datasets)
-    logger.info("Payment analysis complete: %d metrics", len(payment_results))
+    results["payments"] = run_payment_analysis(datasets)
+    logger.info("Payment analysis complete: %d metrics", len(results["payments"]))
 
-    ops_results = run_operational_flags(datasets)
-    logger.info("Operational flags complete: %d metrics", len(ops_results))
+    results["ops_flags"] = run_operational_flags(datasets)
+    logger.info("Operational flags complete: %d metrics", len(results["ops_flags"]))
 
-    logger.info("TouchBistro analysis pipeline finished")
+    # Step 3: Charts
+    try:
+        from pos_analysis.touchbistro.visualizations import generate_all_charts
+        chart_dir = output_dir / "charts"
+        chart_dir.mkdir(parents=True, exist_ok=True)
+        generate_all_charts(results, str(chart_dir))
+        logger.info("Charts generated")
+    except Exception as e:
+        logger.warning("Chart generation failed: %s", e)
+
+    # Step 4: Standardize
+    standardize_all(results, datasets, output_dir)
+    logger.info("Output standardized")
 
 
-def run_lightspeed(data_dir: Path, output_dir: Optional[Path] = None) -> None:
-    """Run the Lightspeed POS analysis pipeline."""
+# ── Lightspeed ───────────────────────────────────────────────────────────
+
+def run_lightspeed(data_dir: Path, output_dir: Path) -> None:
+    """Run the Lightspeed POS analysis pipeline with standardization."""
     from pos_analysis.lightspeed.ingest import load_all_csvs
+    from pos_analysis.lightspeed.analysis import (
+        run_revenue_analysis,
+        run_payment_analysis,
+        run_delivery_analysis,
+        run_reservation_analysis,
+        run_operational_flags,
+    )
+    from pos_analysis.lightspeed.labor import run_labor_analysis
+    from pos_analysis.lightspeed.standardize import standardize_all
 
     logger.info("Starting Lightspeed POS analysis pipeline")
     logger.info("Data directory: %s", data_dir)
 
+    # Step 1: Ingest
     datasets = load_all_csvs(str(data_dir))
     logger.info("Loaded Lightspeed datasets")
 
-    # Import and run analysis modules
-    from pos_analysis.lightspeed.analysis import (
-        run_revenue_analysis,
-        run_payment_analysis,
-    )
-    from pos_analysis.lightspeed.labor import run_labor_analysis
-
-    revenue = run_revenue_analysis(datasets)
+    # Step 2: Analyze
+    results = {}
+    results["sales"] = run_revenue_analysis(datasets)
     logger.info("Revenue analysis complete")
 
-    payments = run_payment_analysis(datasets)
+    results["payments"] = run_payment_analysis(datasets)
     logger.info("Payment analysis complete")
 
-    labor = run_labor_analysis(datasets)
+    results["labor"] = run_labor_analysis(datasets)
     logger.info("Labor analysis complete")
 
-    logger.info("Lightspeed analysis pipeline finished")
+    try:
+        results["delivery"] = run_delivery_analysis(datasets)
+        logger.info("Delivery analysis complete")
+    except Exception as e:
+        logger.warning("Delivery analysis skipped: %s", e)
+        results["delivery"] = {}
 
+    try:
+        results["reservations"] = run_reservation_analysis(datasets)
+        logger.info("Reservation analysis complete")
+    except Exception as e:
+        logger.warning("Reservation analysis skipped: %s", e)
+        results["reservations"] = {}
+
+    try:
+        results["ops_flags"] = run_operational_flags(datasets)
+        logger.info("Operational flags complete")
+    except Exception as e:
+        logger.warning("Operational flags skipped: %s", e)
+        results["ops_flags"] = {}
+
+    # Step 3: Charts
+    try:
+        from pos_analysis.lightspeed.visualizations import generate_all_charts
+        chart_dir = output_dir / "charts"
+        chart_dir.mkdir(parents=True, exist_ok=True)
+        generate_all_charts(results, str(chart_dir))
+        logger.info("Charts generated")
+    except Exception as e:
+        logger.warning("Chart generation failed: %s", e)
+
+    # Step 4: Standardize
+    standardize_all(results, datasets, output_dir)
+    logger.info("Output standardized")
+
+
+# ── Runner dispatch ──────────────────────────────────────────────────────
 
 SYSTEM_RUNNERS = {
     "square": run_square,
@@ -123,7 +241,12 @@ def main() -> None:
         "--output-dir",
         type=Path,
         default=None,
-        help="Path to output directory (default: ./outputs/)",
+        help="Path to output directory (default: ./outputs/<system>/)",
+    )
+    parser.add_argument(
+        "--skip-validate",
+        action="store_true",
+        help="Skip output validation after standardization",
     )
     parser.add_argument(
         "--verbose", "-v",
@@ -139,8 +262,14 @@ def main() -> None:
         logger.error("Data directory does not exist: %s", data_dir)
         sys.exit(1)
 
-    output_dir = args.output_dir.resolve() if args.output_dir else None
+    # Default output dir: ./outputs/<system>/
+    if args.output_dir:
+        output_dir = args.output_dir.resolve()
+    else:
+        output_dir = OUTPUT_DIR / args.system
+    output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Run the pipeline (ingest → analyze → chart → standardize)
     runner = SYSTEM_RUNNERS[args.system]
     try:
         runner(data_dir, output_dir)
@@ -148,7 +277,19 @@ def main() -> None:
         logger.exception("Pipeline failed for %s", args.system)
         sys.exit(1)
 
+    # Step 5: Validate
+    if not args.skip_validate:
+        from pos_analysis.shared.validate_output import validate_output_dir
+        result = validate_output_dir(output_dir)
+        print(result.summary())
+        if not result.passed:
+            logger.warning("Validation found %d failures", len(result.failures))
+    else:
+        logger.info("Validation skipped (--skip-validate)")
+
+    # Step 6: Summary
     logger.info("Pipeline completed successfully for %s", args.system)
+    logger.info("Output directory: %s", output_dir)
 
 
 if __name__ == "__main__":

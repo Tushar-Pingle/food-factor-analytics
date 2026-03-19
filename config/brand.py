@@ -13,11 +13,15 @@ COLORS: Dict[str, str] = {
     "primary": "#1B2A4A",       # Deep Navy
     "secondary": "#D4A843",     # Gold
     "accent1": "#6B8F71",       # Sage Green
+    "accent_1": "#6B8F71",      # Sage Green (snake_case alias)
     "accent2": "#C85C3B",       # Terracotta
+    "accent_2": "#C85C3B",      # Terracotta (snake_case alias)
     "background": "#F8F6F0",    # Warm White
     "text": "#2D2D2D",          # Near Black
     "positive": "#2E7D32",      # Success Green
     "negative": "#C62828",      # Alert Red
+    "light_gray": "#E0DDD5",    # Light Grid/Border
+    "neutral": "#999999",       # Neutral Gray
 }
 
 # Extended palette for multi-series charts

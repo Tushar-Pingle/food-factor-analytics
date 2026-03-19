@@ -24,8 +24,11 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 from config import settings
-from config.brand import CHART_CONFIG as CC
-from config.brand import CHART_PALETTE, COLORS as C
+from config.brand import (
+    COLORS, CHART_SERIES_COLORS, FONT_FAMILY,
+    TITLE_FONT_SIZE, AXIS_FONT_SIZE, TICK_FONT_SIZE,
+    DEFAULT_WIDTH, DEFAULT_HEIGHT, get_plotly_template,
+)
 
 logger = logging.getLogger("food_factor.square.viz")
 
@@ -52,40 +55,40 @@ class FoodFactorCharts:
             title=dict(
                 text=title,
                 font=dict(
-                    family=CC["font_family"],
-                    size=CC["title_font_size"],
-                    color=C["primary"],
+                    family=FONT_FAMILY,
+                    size=TITLE_FONT_SIZE,
+                    color=COLORS["primary"],
                 ),
                 x=0.02,
                 xanchor="left",
             ),
             font=dict(
-                family=CC["font_family"],
-                size=CC["axis_font_size"],
-                color=C["text"],
+                family=FONT_FAMILY,
+                size=AXIS_FONT_SIZE,
+                color=COLORS["text"],
             ),
             plot_bgcolor="white",
             paper_bgcolor="white",
-            width=CC["width"],
-            height=CC["height"],
-            margin=CC["margin"],
+            width=DEFAULT_WIDTH,
+            height=DEFAULT_HEIGHT,
+            margin=dict(l=60, r=30, t=60, b=60),
             legend=dict(
-                font=dict(size=CC["legend_font_size"]),
+                font=dict(size=TICK_FONT_SIZE),
                 bgcolor="rgba(255,255,255,0.8)",
-                bordercolor=C["light_gray"],
+                bordercolor=COLORS["light_gray"],
                 borderwidth=1,
             ),
             xaxis=dict(
-                gridcolor=C["light_gray"],
+                gridcolor=COLORS["light_gray"],
                 gridwidth=0.5,
-                tickfont=dict(size=CC["tick_font_size"]),
-                linecolor=C["light_gray"],
+                tickfont=dict(size=TICK_FONT_SIZE),
+                linecolor=COLORS["light_gray"],
             ),
             yaxis=dict(
-                gridcolor=C["light_gray"],
+                gridcolor=COLORS["light_gray"],
                 gridwidth=0.5,
-                tickfont=dict(size=CC["tick_font_size"]),
-                linecolor=C["light_gray"],
+                tickfont=dict(size=TICK_FONT_SIZE),
+                linecolor=COLORS["light_gray"],
             ),
         )
         layout.update(overrides)
@@ -95,7 +98,7 @@ class FoodFactorCharts:
         """Export chart to PNG (with HTML fallback)."""
         fpath = self.output_dir / f"{filename}.png"
         try:
-            fig.write_image(str(fpath), scale=CC["export_scale"])
+            fig.write_image(str(fpath), scale=3)  # 3x resolution for PDF embedding
             logger.info("Chart saved: %s", fpath)
         except Exception as exc:
             logger.warning(
@@ -119,12 +122,12 @@ class FoodFactorCharts:
         fig.add_trace(go.Bar(
             x=daily["date_only"], y=daily["net_sales"],
             name="Daily Revenue",
-            marker_color=C["primary"], opacity=0.6,
+            marker_color=COLORS["primary"], opacity=0.6,
         ))
         fig.add_trace(go.Scatter(
             x=daily["date_only"], y=daily["ma_7"],
             name="7-Day Avg",
-            line=dict(color=C["secondary"], width=3),
+            line=dict(color=COLORS["secondary"], width=3),
             mode="lines",
         ))
         fig.update_layout(**self._base_layout(
@@ -143,12 +146,12 @@ class FoodFactorCharts:
             x=dow["day_of_week"],
             y=dow["avg_daily_rev"],
             marker_color=[
-                C["accent_2"] if d in ("Friday", "Saturday") else C["primary"]
+                COLORS["accent_2"] if d in ("Friday", "Saturday") else COLORS["primary"]
                 for d in dow["day_of_week"]
             ],
             text=[f"${v:,.0f}" for v in dow["avg_daily_rev"]],
             textposition="outside",
-            textfont=dict(size=11, color=C["text"]),
+            textfont=dict(size=11, color=COLORS["text"]),
         ))
         fig.update_layout(**self._base_layout(
             "Average Daily Revenue by Day of Week",
@@ -188,16 +191,16 @@ class FoodFactorCharts:
         """Revenue by order type — horizontal stacked bar."""
         fig = go.Figure()
         colors = {
-            "Dine-In": C["primary"],
-            "Takeout": C["secondary"],
-            "Delivery": C["accent_1"],
+            "Dine-In": COLORS["primary"],
+            "Takeout": COLORS["secondary"],
+            "Delivery": COLORS["accent_1"],
         }
         for _, row in ot.iterrows():
             fig.add_trace(go.Bar(
                 y=["Revenue"], x=[row["net_sales"]],
                 name=f"{row['order_type']} ({row['pct_of_revenue']:.0%})",
                 orientation="h",
-                marker_color=colors.get(row["order_type"], C["neutral"]),
+                marker_color=colors.get(row["order_type"], COLORS["neutral"]),
                 text=[f"${row['net_sales']:,.0f}"],
                 textposition="inside",
                 textfont=dict(color="white", size=13),
@@ -246,7 +249,7 @@ class FoodFactorCharts:
         fig.add_trace(go.Bar(
             y=cat["category"], x=cat["net_sales"],
             orientation="h",
-            marker_color=C["primary"],
+            marker_color=COLORS["primary"],
             text=[
                 f"${v:,.0f} | {m:.0%} margin"
                 for v, m in zip(cat["net_sales"], cat["margin_pct"])
@@ -271,13 +274,13 @@ class FoodFactorCharts:
         fig.add_trace(go.Scatter(
             x=daily["date_only"], y=daily["avg_check"],
             mode="lines+markers",
-            line=dict(color=C["primary"], width=2),
-            marker=dict(size=5, color=C["primary"]),
+            line=dict(color=COLORS["primary"], width=2),
+            marker=dict(size=5, color=COLORS["primary"]),
             name="Avg Check",
         ))
         mean_check = daily["avg_check"].mean()
         fig.add_hline(
-            y=mean_check, line_dash="dash", line_color=C["secondary"],
+            y=mean_check, line_dash="dash", line_color=COLORS["secondary"],
             annotation_text=f"Period Avg: ${mean_check:.2f}",
             annotation_position="top right",
         )
@@ -297,10 +300,10 @@ class FoodFactorCharts:
     def menu_engineering_matrix(self, matrix: pd.DataFrame) -> go.Figure:
         """BCG-style scatter plot: popularity × contribution margin."""
         color_map = {
-            "Star":       C["positive"],
-            "Plow Horse": C["secondary"],
-            "Puzzle":     C["neutral"],
-            "Dog":        C["negative"],
+            "Star":       COLORS["positive"],
+            "Plow Horse": COLORS["secondary"],
+            "Puzzle":     COLORS["neutral"],
+            "Dog":        COLORS["negative"],
         }
         fig = go.Figure()
         for cls, color in color_map.items():
@@ -329,8 +332,8 @@ class FoodFactorCharts:
 
         pop_med = matrix["pop_median"].iloc[0]
         margin_med = matrix["margin_median"].iloc[0]
-        fig.add_vline(x=pop_med, line_dash="dash", line_color=C["light_gray"], line_width=1.5)
-        fig.add_hline(y=margin_med, line_dash="dash", line_color=C["light_gray"], line_width=1.5)
+        fig.add_vline(x=pop_med, line_dash="dash", line_color=COLORS["light_gray"], line_width=1.5)
+        fig.add_hline(y=margin_med, line_dash="dash", line_color=COLORS["light_gray"], line_width=1.5)
 
         x_range = matrix["quantity_sold"].max()
         y_range = matrix["avg_margin"].max()
@@ -342,7 +345,7 @@ class FoodFactorCharts:
         ]:
             fig.add_annotation(
                 x=x, y=y, text=label, showarrow=False,
-                font=dict(size=13, color=C["neutral"]), opacity=0.6,
+                font=dict(size=13, color=COLORS["neutral"]), opacity=0.6,
             )
 
         fig.update_layout(**self._base_layout(
@@ -363,7 +366,7 @@ class FoodFactorCharts:
             y=fc["category"], x=fc["food_cost_pct"],
             orientation="h",
             marker_color=[
-                C["negative"] if v > settings.BENCHMARKS["food_cost_pct"] else C["positive"]
+                COLORS["negative"] if v > settings.BENCHMARKS["food_cost_pct"] else COLORS["positive"]
                 for v in fc["food_cost_pct"]
             ],
             text=[f"{v:.1%}" for v in fc["food_cost_pct"]],
@@ -371,7 +374,7 @@ class FoodFactorCharts:
         ))
         fig.add_vline(
             x=settings.BENCHMARKS["food_cost_pct"],
-            line_dash="dash", line_color=C["secondary"], line_width=2,
+            line_dash="dash", line_color=COLORS["secondary"], line_width=2,
             annotation_text=f"Target: {settings.BENCHMARKS['food_cost_pct']:.0%}",
             annotation_position="top right",
         )
@@ -395,7 +398,7 @@ class FoodFactorCharts:
         fig.add_trace(go.Bar(
             y=df["item_name"], x=df["net_sales"],
             orientation="h",
-            marker_color=C["primary"],
+            marker_color=COLORS["primary"],
             text=[f"${v:,.0f}" for v in df["net_sales"]],
             textposition="outside",
         ))
@@ -450,28 +453,28 @@ class FoodFactorCharts:
         fig.add_trace(
             go.Bar(
                 x=daily["date_only"], y=daily["net_sales"],
-                name="Net Sales", marker_color=C["primary"], opacity=0.5,
+                name="Net Sales", marker_color=COLORS["primary"], opacity=0.5,
             ),
             secondary_y=False,
         )
         fig.add_trace(
             go.Bar(
                 x=daily["date_only"], y=daily["labor_cost"],
-                name="Labor Cost", marker_color=C["accent_2"], opacity=0.7,
+                name="Labor Cost", marker_color=COLORS["accent_2"], opacity=0.7,
             ),
             secondary_y=False,
         )
         fig.add_trace(
             go.Scatter(
                 x=daily["date_only"], y=daily["labor_pct"],
-                name="Labor %", line=dict(color=C["secondary"], width=2.5),
+                name="Labor %", line=dict(color=COLORS["secondary"], width=2.5),
                 mode="lines",
             ),
             secondary_y=True,
         )
         fig.add_hline(
             y=settings.BENCHMARKS["labor_cost_pct"],
-            line_dash="dot", line_color=C["negative"], secondary_y=True,
+            line_dash="dot", line_color=COLORS["negative"], secondary_y=True,
             annotation_text=f"Target: {settings.BENCHMARKS['labor_cost_pct']:.0%}",
         )
         fig.update_layout(**self._base_layout(
@@ -513,13 +516,13 @@ class FoodFactorCharts:
         fig.add_trace(go.Scatter(
             x=splh["date_only"], y=splh["splh"],
             mode="lines+markers",
-            line=dict(color=C["primary"], width=2),
+            line=dict(color=COLORS["primary"], width=2),
             marker=dict(size=5),
             name="SPLH",
         ))
         fig.add_hline(
             y=settings.BENCHMARKS["splh_target"],
-            line_dash="dash", line_color=C["secondary"],
+            line_dash="dash", line_color=COLORS["secondary"],
             annotation_text=f"Target: ${settings.BENCHMARKS['splh_target']}",
             annotation_position="top right",
         )
@@ -540,7 +543,7 @@ class FoodFactorCharts:
                 y=["Labor Split"], x=[row["labor_cost"]],
                 name=f"{row['label']} ({row['pct_of_total']:.0%})",
                 orientation="h",
-                marker_color=C["primary"] if row["label"] == "FOH" else C["accent_1"],
+                marker_color=COLORS["primary"] if row["label"] == "FOH" else COLORS["accent_1"],
                 text=[f"${row['labor_cost']:,.0f}"],
                 textposition="inside",
                 textfont=dict(color="white", size=13),
@@ -563,7 +566,7 @@ class FoodFactorCharts:
         """Platform comparison: grouped bar chart."""
         metrics = ["gross_sales", "net_payout", "total_fees"]
         labels = ["Gross Sales", "Net Payout", "Platform Fees"]
-        colors_list = [C["primary"], C["positive"], C["negative"]]
+        colors_list = [COLORS["primary"], COLORS["positive"], COLORS["negative"]]
 
         fig = go.Figure()
         for metric, label, color in zip(metrics, labels, colors_list):
@@ -589,14 +592,14 @@ class FoodFactorCharts:
         fig.add_trace(
             go.Bar(
                 x=daily["date_only"], y=daily["gross_sales"],
-                name="Gross Sales", marker_color=C["primary"], opacity=0.6,
+                name="Gross Sales", marker_color=COLORS["primary"], opacity=0.6,
             ),
             secondary_y=False,
         )
         fig.add_trace(
             go.Scatter(
                 x=daily["date_only"], y=daily["order_count"],
-                name="Order Count", line=dict(color=C["secondary"], width=2.5),
+                name="Order Count", line=dict(color=COLORS["secondary"], width=2.5),
                 mode="lines+markers", marker=dict(size=4),
             ),
             secondary_y=True,
@@ -613,10 +616,10 @@ class FoodFactorCharts:
             x=["Gross Sales", "Platform Fees", "Net Payout"],
             y=[kpis["gross_delivery_rev"], -kpis["total_fees"], kpis["net_payout"]],
             measure=["absolute", "relative", "total"],
-            connector=dict(line=dict(color=C["light_gray"])),
-            decreasing=dict(marker_color=C["negative"]),
-            increasing=dict(marker_color=C["positive"]),
-            totals=dict(marker_color=C["primary"]),
+            connector=dict(line=dict(color=COLORS["light_gray"])),
+            decreasing=dict(marker_color=COLORS["negative"]),
+            increasing=dict(marker_color=COLORS["positive"]),
+            totals=dict(marker_color=COLORS["primary"]),
             text=[
                 f"${kpis['gross_delivery_rev']:,.0f}",
                 f"-${kpis['total_fees']:,.0f}",
@@ -667,8 +670,8 @@ class FoodFactorCharts:
         fig.add_trace(go.Bar(
             x=ns_day["day_of_week"], y=ns_day["noshow_rate"],
             marker_color=[
-                C["negative"] if v > settings.BENCHMARKS["noshow_rate_target"]
-                else C["primary"]
+                COLORS["negative"] if v > settings.BENCHMARKS["noshow_rate_target"]
+                else COLORS["primary"]
                 for v in ns_day["noshow_rate"]
             ],
             text=[f"{v:.1%}" for v in ns_day["noshow_rate"]],
@@ -676,7 +679,7 @@ class FoodFactorCharts:
         ))
         fig.add_hline(
             y=settings.BENCHMARKS["noshow_rate_target"],
-            line_dash="dash", line_color=C["secondary"],
+            line_dash="dash", line_color=COLORS["secondary"],
             annotation_text=f"Target: {settings.BENCHMARKS['noshow_rate_target']:.0%}",
         )
         fig.update_layout(**self._base_layout(
@@ -695,14 +698,14 @@ class FoodFactorCharts:
         fig.add_trace(
             go.Bar(
                 x=dow["day_of_week"], y=dow["reservations"],
-                name="Reservations", marker_color=C["primary"], opacity=0.7,
+                name="Reservations", marker_color=COLORS["primary"], opacity=0.7,
             ),
             secondary_y=False,
         )
         fig.add_trace(
             go.Scatter(
                 x=dow["day_of_week"], y=dow["total_covers"],
-                name="Covers", line=dict(color=C["secondary"], width=2.5),
+                name="Covers", line=dict(color=COLORS["secondary"], width=2.5),
                 mode="lines+markers",
             ),
             secondary_y=True,
@@ -729,7 +732,7 @@ class FoodFactorCharts:
             marker=dict(
                 size=server["txn_count"] / server["txn_count"].max() * 30 + 8,
                 color=[
-                    C["negative"] if f else C["primary"]
+                    COLORS["negative"] if f else COLORS["primary"]
                     for f in server["discount_flag"]
                 ],
                 opacity=0.8,
