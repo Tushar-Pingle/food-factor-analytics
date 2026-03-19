@@ -1,0 +1,44 @@
+Product_ID,Product_Type,Name,Kitchen_Name,PLU,Price,Category_ID,Category_Name,Tax_Rate,Takeaway_Tax_Rate,Delivery_Tax_Rate,Takeaway_Price,Delivery_Price,Tax_Exclusive_Price,Cost,Visible
+P-1001,Regular,Tuna Tartare,TUNA-TART,1001,22.00,CAT-01,Appetizers,5.0,5.0,12.0,22.00,25.00,22.00,7.70,True
+P-1002,Regular,Hamachi Crudo,HAM-CRUD,1002,24.00,CAT-01,Appetizers,5.0,5.0,12.0,24.00,27.00,24.00,9.60,True
+P-1003,Regular,Roasted Beet Salad,BEET-SAL,1003,17.00,CAT-01,Appetizers,5.0,5.0,12.0,17.00,19.00,17.00,4.25,True
+P-1004,Regular,Dungeness Crab Cake,CRAB-CK,1004,21.00,CAT-01,Appetizers,5.0,5.0,12.0,21.00,24.00,21.00,8.40,True
+P-1005,Regular,Miso Glazed Eggplant,MISO-EGG,1005,16.00,CAT-01,Appetizers,5.0,5.0,12.0,16.00,18.00,16.00,3.84,True
+P-1006,Regular,Burrata & Heirloom Tomato,BURR-TOM,1006,19.00,CAT-01,Appetizers,5.0,5.0,12.0,19.00,22.00,19.00,5.70,True
+P-1007,Regular,Tempura Spot Prawns,TEMP-PRW,1007,23.00,CAT-01,Appetizers,5.0,5.0,12.0,23.00,26.00,23.00,9.20,True
+P-2001,Regular,Pan-Seared Sablefish,SABL-PAN,2001,42.00,CAT-02,Mains,5.0,5.0,12.0,42.00,48.00,42.00,15.12,True
+P-2002,Regular,Wagyu Striploin 8oz,WAG-STRP,2002,62.00,CAT-02,Mains,5.0,5.0,12.0,62.00,,62.00,24.80,True
+P-2003,Regular,Wild Salmon Bowl,SALM-BWL,2003,34.00,CAT-02,Mains,5.0,5.0,12.0,34.00,39.00,34.00,10.88,True
+P-2004,Regular,Miso-Braised Short Rib,MISO-RIB,2004,44.00,CAT-02,Mains,5.0,5.0,12.0,44.00,50.00,44.00,15.40,True
+P-2005,Regular,Duck Breast & Soba,DUCK-SOB,2005,39.00,CAT-02,Mains,5.0,5.0,12.0,39.00,45.00,39.00,13.65,True
+P-2006,Regular,Grilled Halibut,GRILL-HAL,2006,46.00,CAT-02,Mains,5.0,5.0,12.0,46.00,,46.00,18.40,True
+P-2007,Regular,Mushroom Risotto,MUSH-RIS,2007,28.00,CAT-02,Mains,5.0,5.0,12.0,28.00,32.00,28.00,7.00,True
+P-2008,Regular,Seafood Linguine,SEA-LING,2008,36.00,CAT-02,Mains,5.0,5.0,12.0,36.00,41.00,36.00,12.60,True
+P-2009,Regular,Lamb Rack,LAMB-RCK,2009,52.00,CAT-02,Mains,5.0,5.0,12.0,52.00,,52.00,20.80,True
+P-2010,Regular,Teriyaki Chicken,TERI-CHK,2010,26.00,CAT-02,Mains,5.0,5.0,12.0,26.00,30.00,26.00,6.76,True
+P-3001,Regular,Yuzu Cheesecake,YUZU-CK,3001,16.00,CAT-03,Desserts,5.0,5.0,12.0,16.00,18.00,16.00,3.84,True
+P-3002,Regular,Chocolate Lava Cake,CHOC-LV,3002,17.00,CAT-03,Desserts,5.0,5.0,12.0,17.00,19.00,17.00,4.25,True
+P-3003,Regular,Matcha Panna Cotta,MTCH-PAN,3003,14.00,CAT-03,Desserts,5.0,5.0,12.0,14.00,16.00,14.00,2.80,True
+P-3004,Regular,Seasonal Fruit Tart,FRUIT-TRT,3004,15.00,CAT-03,Desserts,5.0,5.0,12.0,15.00,17.00,15.00,3.75,True
+P-4001,Regular,Ember Old Fashioned,EMB-OF,4001,18.00,CAT-04,Cocktails,15.0,5.0,12.0,18.00,,18.00,4.50,True
+P-4002,Regular,Yuzu Gimlet,YUZU-GIM,4002,17.00,CAT-04,Cocktails,15.0,5.0,12.0,17.00,,17.00,4.25,True
+P-4003,Regular,Sakura Spritz,SAK-SPR,4003,16.00,CAT-04,Cocktails,15.0,5.0,12.0,16.00,,16.00,3.68,True
+P-4004,Regular,Pacific Mule,PAC-MULE,4004,16.00,CAT-04,Cocktails,15.0,5.0,12.0,16.00,,16.00,3.52,True
+P-4005,Regular,Negroni,NEGR,4005,17.00,CAT-04,Cocktails,15.0,5.0,12.0,17.00,,17.00,4.59,True
+P-5001,Regular,Glass — Pinot Gris (BC),W-PG-BC,5001,16.00,CAT-05,Wine,15.0,5.0,12.0,16.00,,16.00,4.00,True
+P-5002,Regular,Glass — Chardonnay (Okanagan),W-CHARD,5002,18.00,CAT-05,Wine,15.0,5.0,12.0,18.00,,18.00,4.86,True
+P-5003,Regular,Glass — Pinot Noir (BC),W-PN-BC,5003,19.00,CAT-05,Wine,15.0,5.0,12.0,19.00,,19.00,5.32,True
+P-5004,Regular,Glass — Cabernet Sauvignon,W-CABSV,5004,20.00,CAT-05,Wine,15.0,5.0,12.0,20.00,,20.00,5.60,True
+P-5005,Regular,Glass — Rosé,W-ROSE,5005,15.00,CAT-05,Wine,15.0,5.0,12.0,15.00,,15.00,3.75,True
+P-6001,Regular,Craft IPA (Brassneck),B-IPA,6001,10.00,CAT-06,Beer,15.0,5.0,12.0,10.00,,10.00,3.00,True
+P-6002,Regular,Japanese Lager (Asahi),B-ASAHI,6002,9.00,CAT-06,Beer,15.0,5.0,12.0,9.00,,9.00,2.70,True
+P-6003,Regular,Local Pilsner (33 Acres),B-33A,6003,9.00,CAT-06,Beer,15.0,5.0,12.0,9.00,,9.00,2.52,True
+P-7001,Regular,Sparkling Water,SPARK-W,7001,5.00,CAT-07,Non-Alcoholic,5.0,5.0,12.0,5.00,5.00,5.00,0.75,True
+P-7002,Regular,Fresh Juice (Seasonal),JUICE,7002,8.00,CAT-07,Non-Alcoholic,5.0,5.0,12.0,8.00,9.00,8.00,2.00,True
+P-7003,Regular,Espresso,ESPRES,7003,5.00,CAT-07,Non-Alcoholic,5.0,5.0,12.0,5.00,,5.00,0.75,True
+P-7004,Regular,Matcha Latte,MTCH-LAT,7004,7.00,CAT-07,Non-Alcoholic,5.0,5.0,12.0,7.00,8.00,7.00,1.40,True
+P-8001,Regular,Eggs Benedict (Salmon),BENE-SAL,8001,24.00,CAT-08,Brunch,5.0,5.0,12.0,24.00,27.00,24.00,7.20,True
+P-8002,Regular,Japanese Souffle Pancakes,SOUF-PAN,8002,22.00,CAT-08,Brunch,5.0,5.0,12.0,22.00,25.00,22.00,4.84,True
+P-8003,Regular,Avocado Toast & Poached Eggs,AVO-TST,8003,20.00,CAT-08,Brunch,5.0,5.0,12.0,20.00,23.00,20.00,5.00,True
+P-8004,Regular,Wagyu Steak & Eggs,WAG-EGG,8004,32.00,CAT-08,Brunch,5.0,5.0,12.0,32.00,,32.00,12.80,True
+P-8005,Regular,Mimosa,MIMOSA,8005,12.00,CAT-08,Brunch,15.0,5.0,12.0,12.00,,12.00,2.40,True
