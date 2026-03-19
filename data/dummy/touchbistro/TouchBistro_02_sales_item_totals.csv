@@ -1,0 +1,50 @@
+Menu_Item,Menu_Category,Sales_Category,Quantity_Sold,Gross_Sales,Returns,Return_Amount,Voids,Net_Sales,Item_Cost,Total_Cost,Food_Cost_Pct
+Bottle — House Red,Wine,Alcohol,471,26376.00,0,0.00,4,26180.00,16.80,7912.80,30.2%
+Bottle — House White,Wine,Alcohol,454,23608.00,0,0.00,3,23491.00,15.60,7082.40,30.1%
+Rack of Lamb,Mains,Food,484,21946.00,0,0.00,1,21768.40,15.75,7623.00,35.0%
+Pan-Seared Halibut,Mains,Food,452,19154.50,0,0.00,0,19021.80,14.70,6644.40,34.9%
+Grilled Sablefish,Mains,Food,473,18600.50,0,0.00,2,18424.70,13.65,6456.45,35.0%
+Braised Short Rib,Mains,Food,497,18075.50,0,0.00,1,17820.90,11.88,5904.36,33.1%
+Duck Breast,Mains,Food,463,17776.00,0,0.00,1,17579.40,12.54,5806.02,33.0%
+Wild Salmon Fillet,Mains,Food,456,17007.00,0,0.00,0,16794.05,12.95,5905.20,35.2%
+Herb-Crusted Chicken,Mains,Food,510,15015.50,0,0.00,1,14929.95,8.12,4141.20,27.7%
+Seafood Linguine,Mains,Food,502,14243.00,0,0.00,0,14018.55,8.40,4216.80,30.1%
+Pacific Prawn Pasta,Mains,Food,462,14006.00,0,0.00,0,13839.50,10.50,4851.00,35.1%
+Wagyu Burger,Mains,Food,491,13919.50,0,0.00,0,13793.60,9.80,4811.80,34.9%
+Porcini Risotto,Mains,Food,503,13236.50,0,0.00,2,13132.15,6.50,3269.50,24.9%
+West Coast Oysters (6pc),Appetizers,Food,456,11106.00,0,0.00,1,10999.20,8.40,3830.40,34.8%
+Beet & Grain Bowl,Mains,Food,485,10885.50,1,-22.00,3,10837.65,5.50,2667.50,24.6%
+Charred Octopus,Appetizers,Food,453,10562.00,2,-46.00,0,10426.75,8.05,3646.65,35.0%
+Tuna Tartare,Appetizers,Food,465,10379.00,0,0.00,2,10282.10,7.70,3580.50,34.8%
+Burrata & Heirloom Tomato,Appetizers,Food,481,9303.50,1,-19.00,1,9195.85,5.70,2741.70,29.8%
+Salmon Crudo,Appetizers,Food,446,9071.00,1,-20.00,3,9031.85,7.00,3122.00,34.6%
+Dungeness Crab Cakes,Appetizers,Food,379,8093.50,1,-21.00,1,7958.35,7.35,2785.65,35.0%
+Roasted Beet Salad,Appetizers,Food,415,7238.00,1,-17.00,1,7185.60,4.25,1763.75,24.5%
+Glass — Pinot Noir (BC),Wine,Alcohol,372,7068.00,0,0.00,0,6992.00,5.70,2120.40,30.3%
+Mushroom Arancini,Appetizers,Food,415,6781.50,0,0.00,2,6745.68,4.00,1660.00,24.6%
+Coastal Spritz,Cocktails,Alcohol,386,6176.00,0,0.00,3,6148.00,4.00,1544.00,25.1%
+Paloma,Cocktails,Alcohol,377,6032.00,0,0.00,0,6012.80,4.00,1508.00,25.1%
+Glass — Sauvignon Blanc (NZ),Wine,Alcohol,351,5967.00,0,0.00,0,5926.20,5.10,1790.10,30.2%
+Glass — Cabernet Sauvignon,Wine,Alcohol,327,5886.00,0,0.00,0,5787.90,5.40,1765.80,30.5%
+Old Fashioned,Cocktails,Alcohol,320,5760.00,0,0.00,0,5684.40,4.50,1440.00,25.3%
+Negroni,Cocktails,Alcohol,330,5610.00,0,0.00,1,5491.85,4.25,1402.50,25.5%
+Espresso Martini,Cocktails,Alcohol,317,5389.00,0,0.00,0,5345.65,4.25,1347.25,25.2%
+Cheese Board,Desserts,Food,238,5236.00,0,0.00,0,5167.80,7.70,1832.60,35.5%
+Glass — Chardonnay (BC),Wine,Alcohol,327,5232.00,0,0.00,4,5206.40,4.80,1569.60,30.1%
+Chocolate Fondant,Desserts,Food,276,4416.00,0,0.00,0,4355.20,4.00,1104.00,25.3%
+Seasonal Fruit Tart,Desserts,Food,284,4260.00,0,0.00,2,4204.50,3.75,1065.00,25.3%
+Eggs Benedict Pacific,Brunch,Food,157,3824.00,0,0.00,1,3824.00,7.20,1130.40,29.6%
+Smoked Salmon Bagel,Brunch,Food,168,3587.00,0,0.00,0,3532.20,6.30,1058.40,30.0%
+Crème Brûlée,Desserts,Food,254,3556.00,0,0.00,0,3497.20,3.50,889.00,25.4%
+Local IPA (draft),Beer,Alcohol,343,3430.00,0,0.00,1,3412.50,3.00,1029.00,30.2%
+Craft Lager (bottle),Beer,Alcohol,355,3195.00,0,0.00,0,3147.30,2.70,958.50,30.5%
+Affogato,Desserts,Food,263,3156.00,0,0.00,0,3114.60,2.40,631.20,20.3%
+Pilsner (draft),Beer,Alcohol,348,3132.00,0,0.00,1,3103.20,2.70,939.60,30.3%
+Fresh Juice,Non-Alcoholic,Non-Alcoholic,386,3088.00,0,0.00,1,3044.40,2.00,772.00,25.4%
+Buttermilk Pancakes,Brunch,Food,156,2842.50,0,0.00,1,2840.70,3.60,561.60,19.8%
+Avocado Toast,Brunch,Food,142,2731.00,0,0.00,0,2731.00,4.75,674.50,24.7%
+Shakshuka,Brunch,Food,130,2502.50,0,0.00,1,2480.65,4.75,617.50,24.9%
+Kombucha,Non-Alcoholic,Non-Alcoholic,344,2408.00,0,0.00,1,2392.95,2.10,722.40,30.2%
+Sparkling Water (750ml),Non-Alcoholic,Non-Alcoholic,333,2331.00,0,0.00,1,2313.85,1.40,466.20,20.1%
+Cappuccino,Non-Alcoholic,Non-Alcoholic,350,2275.00,0,0.00,0,2252.58,1.00,350.00,15.5%
+Espresso,Non-Alcoholic,Non-Alcoholic,362,1810.00,0,0.00,2,1790.00,0.75,271.50,15.2%

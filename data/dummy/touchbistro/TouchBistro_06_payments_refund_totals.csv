@@ -1,0 +1,7 @@
+Payment_Method,Total_Amount,Tips,Refunds,Transaction_Count
+Visa,207030.62,30378.45,68.25,1161
+Mastercard,147217.90,21120.81,61.95,799
+Interac Debit,96087.70,14086.89,22.05,513
+Cash,50891.28,7808.58,0.00,288
+Amex,18133.58,2689.85,0.00,96
+Gift Card,14377.92,2038.86,0.00,79
