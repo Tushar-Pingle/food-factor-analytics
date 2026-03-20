@@ -1,0 +1,258 @@
+{
+  "total_reservations": 1119,
+  "completed": 884,
+  "no_shows": 91,
+  "noshow_rate": 0.0813,
+  "cancel_rate": 0.1287,
+  "avg_party_size": 2.8,
+  "total_covers": 2437,
+  "avg_turn_time": 89.7,
+  "avg_wait_time": 1.6,
+  "revpash": null,
+  "by_source": [
+    {
+      "source": "OpenTable",
+      "count": 454,
+      "noshow_rate": 0.07929515418502203,
+      "avg_party_size": 2.7863436123348015,
+      "pct_of_total": 0.40571939231456655
+    },
+    {
+      "source": "Resy",
+      "count": 271,
+      "noshow_rate": 0.07749077490774908,
+      "avg_party_size": 2.690036900369004,
+      "pct_of_total": 0.2421805183199285
+    },
+    {
+      "source": "Phone",
+      "count": 166,
+      "noshow_rate": 0.10240963855421686,
+      "avg_party_size": 2.8674698795180724,
+      "pct_of_total": 0.1483467381590706
+    },
+    {
+      "source": "Walk-In",
+      "count": 153,
+      "noshow_rate": 0.0784313725490196,
+      "avg_party_size": 2.7254901960784315,
+      "pct_of_total": 0.13672922252010725
+    },
+    {
+      "source": "Website",
+      "count": 75,
+      "noshow_rate": 0.06666666666666667,
+      "avg_party_size": 2.7466666666666666,
+      "pct_of_total": 0.06702412868632708
+    }
+  ],
+  "noshow_by_day": [
+    {
+      "day_of_week": "Monday",
+      "total": 99,
+      "noshows": 5,
+      "noshow_rate": 0.0505050505
+    },
+    {
+      "day_of_week": "Tuesday",
+      "total": 98,
+      "noshows": 6,
+      "noshow_rate": 0.0612244898
+    },
+    {
+      "day_of_week": "Wednesday",
+      "total": 99,
+      "noshows": 14,
+      "noshow_rate": 0.1414141414
+    },
+    {
+      "day_of_week": "Thursday",
+      "total": 169,
+      "noshows": 12,
+      "noshow_rate": 0.0710059172
+    },
+    {
+      "day_of_week": "Friday",
+      "total": 233,
+      "noshows": 13,
+      "noshow_rate": 0.0557939914
+    },
+    {
+      "day_of_week": "Saturday",
+      "total": 251,
+      "noshows": 25,
+      "noshow_rate": 0.0996015936
+    },
+    {
+      "day_of_week": "Sunday",
+      "total": 170,
+      "noshows": 16,
+      "noshow_rate": 0.0941176471
+    }
+  ],
+  "extended": {
+    "turn_times": [
+      {
+        "service": "Brunch",
+        "avg_turn": 69.1343283582,
+        "median_turn": 70.0,
+        "p90_turn": 82.4,
+        "count": 67
+      },
+      {
+        "service": "Dinner",
+        "avg_turn": 97.5610932476,
+        "median_turn": 97.0,
+        "p90_turn": 116.0,
+        "count": 622
+      },
+      {
+        "service": "Lunch",
+        "avg_turn": 71.7743589744,
+        "median_turn": 72.0,
+        "p90_turn": 84.0,
+        "count": 195
+      }
+    ],
+    "party_size": [
+      {
+        "party_size": 1,
+        "count": 26,
+        "noshow_rate": 0.1153846154,
+        "pct_of_total": 0.0232350313
+      },
+      {
+        "party_size": 2,
+        "count": 622,
+        "noshow_rate": 0.078778135,
+        "pct_of_total": 0.5558534406
+      },
+      {
+        "party_size": 3,
+        "count": 131,
+        "noshow_rate": 0.0992366412,
+        "pct_of_total": 0.1170688114
+      },
+      {
+        "party_size": 4,
+        "count": 291,
+        "noshow_rate": 0.0721649485,
+        "pct_of_total": 0.2600536193
+      },
+      {
+        "party_size": 5,
+        "count": 28,
+        "noshow_rate": 0.1428571429,
+        "pct_of_total": 0.0250223414
+      },
+      {
+        "party_size": 6,
+        "count": 21,
+        "noshow_rate": 0.0476190476,
+        "pct_of_total": 0.018766756
+      }
+    ],
+    "dow_pattern": [
+      {
+        "day_of_week": "Monday",
+        "reservations": 99,
+        "total_covers": 215,
+        "avg_party": 2.6262626263
+      },
+      {
+        "day_of_week": "Tuesday",
+        "reservations": 98,
+        "total_covers": 202,
+        "avg_party": 2.5816326531
+      },
+      {
+        "day_of_week": "Wednesday",
+        "reservations": 99,
+        "total_covers": 213,
+        "avg_party": 2.7373737374
+      },
+      {
+        "day_of_week": "Thursday",
+        "reservations": 169,
+        "total_covers": 361,
+        "avg_party": 2.798816568
+      },
+      {
+        "day_of_week": "Friday",
+        "reservations": 233,
+        "total_covers": 527,
+        "avg_party": 2.7467811159
+      },
+      {
+        "day_of_week": "Saturday",
+        "reservations": 251,
+        "total_covers": 536,
+        "avg_party": 2.8804780876
+      },
+      {
+        "day_of_week": "Sunday",
+        "reservations": 170,
+        "total_covers": 383,
+        "avg_party": 2.7823529412
+      }
+    ],
+    "revpash_detail": [
+      {
+        "day_of_week": "Monday",
+        "reservations": 99,
+        "total_covers": 215,
+        "avg_party": 2.6262626263,
+        "seat_hours": 864,
+        "covers_per_seat": 2.9861111111
+      },
+      {
+        "day_of_week": "Tuesday",
+        "reservations": 98,
+        "total_covers": 202,
+        "avg_party": 2.5816326531,
+        "seat_hours": 864,
+        "covers_per_seat": 2.8055555556
+      },
+      {
+        "day_of_week": "Wednesday",
+        "reservations": 99,
+        "total_covers": 213,
+        "avg_party": 2.7373737374,
+        "seat_hours": 864,
+        "covers_per_seat": 2.9583333333
+      },
+      {
+        "day_of_week": "Thursday",
+        "reservations": 169,
+        "total_covers": 361,
+        "avg_party": 2.798816568,
+        "seat_hours": 864,
+        "covers_per_seat": 5.0138888889
+      },
+      {
+        "day_of_week": "Friday",
+        "reservations": 233,
+        "total_covers": 527,
+        "avg_party": 2.7467811159,
+        "seat_hours": 864,
+        "covers_per_seat": 7.3194444444
+      },
+      {
+        "day_of_week": "Saturday",
+        "reservations": 251,
+        "total_covers": 536,
+        "avg_party": 2.8804780876,
+        "seat_hours": 864,
+        "covers_per_seat": 7.4444444444
+      },
+      {
+        "day_of_week": "Sunday",
+        "reservations": 170,
+        "total_covers": 383,
+        "avg_party": 2.7823529412,
+        "seat_hours": 864,
+        "covers_per_seat": 5.3194444444
+      }
+    ]
+  }
+}

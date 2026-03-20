@@ -1,0 +1,142 @@
+{
+  "flags": [
+    {
+      "severity": "OK",
+      "category": "Operations",
+      "description": "All operational metrics within normal ranges.",
+      "metric_value": null,
+      "threshold": null
+    }
+  ],
+  "void_summary": {
+    "void_count": 0,
+    "void_rate_pct": 0.0,
+    "void_revenue_lost": 0.0,
+    "alert_level": "OK"
+  },
+  "refund_summary": {
+    "refund_count": 15,
+    "refund_amount": 638.62,
+    "refund_rate_pct": 0.0053
+  },
+  "extended": {
+    "discount_by_server": [
+      {
+        "team_member": "Leo C.",
+        "total_discounts": 925.35,
+        "discount_txns": 13,
+        "txn_count": 519,
+        "net_sales": 84693.15,
+        "discount_rate": 0.0109259131
+      },
+      {
+        "team_member": "Sarah M.",
+        "total_discounts": 766.14,
+        "discount_txns": 13,
+        "txn_count": 458,
+        "net_sales": 72578.86,
+        "discount_rate": 0.0105559663
+      },
+      {
+        "team_member": "James L.",
+        "total_discounts": 654.4,
+        "discount_txns": 10,
+        "txn_count": 515,
+        "net_sales": 80995.6,
+        "discount_rate": 0.0080794512
+      },
+      {
+        "team_member": "Priya K.",
+        "total_discounts": 609.22,
+        "discount_txns": 10,
+        "txn_count": 445,
+        "net_sales": 71209.28,
+        "discount_rate": 0.0085553456
+      },
+      {
+        "team_member": "Marcus T.",
+        "total_discounts": 243.9,
+        "discount_txns": 6,
+        "txn_count": 473,
+        "net_sales": 73562.6,
+        "discount_rate": 0.0033155435
+      },
+      {
+        "team_member": "Emma W.",
+        "total_discounts": 212.85,
+        "discount_txns": 4,
+        "txn_count": 443,
+        "net_sales": 67142.15,
+        "discount_rate": 0.0031701398
+      }
+    ],
+    "server_flags": [
+      {
+        "team_member": "Leo C.",
+        "txn_count": 519,
+        "net_sales": 84693.15,
+        "total_tips": 12735.67,
+        "total_discounts": 925.35,
+        "avg_check": 163.1852601156,
+        "tip_pct": 0.1503742629,
+        "discount_pct": 0.0109259131,
+        "discount_flag": false
+      },
+      {
+        "team_member": "James L.",
+        "txn_count": 515,
+        "net_sales": 80995.6,
+        "total_tips": 12522.96,
+        "total_discounts": 654.4,
+        "avg_check": 157.2730097087,
+        "tip_pct": 0.1546128432,
+        "discount_pct": 0.0080794512,
+        "discount_flag": false
+      },
+      {
+        "team_member": "Marcus T.",
+        "txn_count": 473,
+        "net_sales": 73562.6,
+        "total_tips": 11385.3,
+        "total_discounts": 243.9,
+        "avg_check": 155.5234672304,
+        "tip_pct": 0.1547702229,
+        "discount_pct": 0.0033155435,
+        "discount_flag": false
+      },
+      {
+        "team_member": "Sarah M.",
+        "txn_count": 458,
+        "net_sales": 72578.86,
+        "total_tips": 10824.22,
+        "total_discounts": 766.14,
+        "avg_check": 158.4691266376,
+        "tip_pct": 0.1491373659,
+        "discount_pct": 0.0105559663,
+        "discount_flag": false
+      },
+      {
+        "team_member": "Priya K.",
+        "txn_count": 445,
+        "net_sales": 71209.28,
+        "total_tips": 10827.92,
+        "total_discounts": 609.22,
+        "avg_check": 160.0208539326,
+        "tip_pct": 0.1520577093,
+        "discount_pct": 0.0085553456,
+        "discount_flag": false
+      },
+      {
+        "team_member": "Emma W.",
+        "txn_count": 443,
+        "net_sales": 67142.15,
+        "total_tips": 10278.2,
+        "total_discounts": 212.85,
+        "avg_check": 151.5624153499,
+        "tip_pct": 0.1530811867,
+        "discount_pct": 0.0031701398,
+        "discount_flag": false
+      }
+    ]
+  }
+}

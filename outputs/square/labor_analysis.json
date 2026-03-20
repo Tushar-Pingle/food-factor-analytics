@@ -1,0 +1,674 @@
+{
+  "total_labor_cost": 68408.89,
+  "total_paid_hours": 3262.3,
+  "labor_pct": 0.152,
+  "splh": 138.0,
+  "headcount": 21,
+  "total_overtime_hours": 342.9,
+  "overtime_premium_cost": 3893.13,
+  "benchmark_labor_pct": 0.28,
+  "benchmark_splh": 55.0,
+  "daily_labor": [
+    {
+      "date": "2026-02-01",
+      "labor_cost": 2855.08,
+      "labor_hours": 135.19,
+      "staff_count": 16,
+      "net_revenue": 15174.6,
+      "labor_pct": 0.18814861676749303,
+      "splh": 112.2464679340188,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-02",
+      "labor_cost": 1341.42,
+      "labor_hours": 70.84,
+      "staff_count": 10,
+      "net_revenue": 12086.0,
+      "labor_pct": 0.11098957471454576,
+      "splh": 170.60982495765103,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-03",
+      "labor_cost": 1866.66,
+      "labor_hours": 86.48,
+      "staff_count": 11,
+      "net_revenue": 12198.1,
+      "labor_pct": 0.15302875037915742,
+      "splh": 141.05111008325625,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-04",
+      "labor_cost": 1809.1299999999999,
+      "labor_hours": 84.01,
+      "staff_count": 11,
+      "net_revenue": 12746.22,
+      "labor_pct": 0.14193462846239904,
+      "splh": 151.7226520652303,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-05",
+      "labor_cost": 2686.28,
+      "labor_hours": 126.55,
+      "staff_count": 16,
+      "net_revenue": 18031.25,
+      "labor_pct": 0.1489791334488735,
+      "splh": 142.48320821809563,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-06",
+      "labor_cost": 3226.94,
+      "labor_hours": 155.68,
+      "staff_count": 20,
+      "net_revenue": 21522.4,
+      "labor_pct": 0.1499340222280043,
+      "splh": 138.24768756423433,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-07",
+      "labor_cost": 3540.78,
+      "labor_hours": 169.25,
+      "staff_count": 20,
+      "net_revenue": 23419.0,
+      "labor_pct": 0.15119262137580597,
+      "splh": 138.36927621861153,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-02-08",
+      "labor_cost": 2755.97,
+      "labor_hours": 130.94,
+      "staff_count": 16,
+      "net_revenue": 15491.1,
+      "labor_pct": 0.17790666899058166,
+      "splh": 118.30685810294791,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-09",
+      "labor_cost": 1619.58,
+      "labor_hours": 82.53,
+      "staff_count": 10,
+      "net_revenue": 11589.0,
+      "labor_pct": 0.1397514884804556,
+      "splh": 140.42166484914577,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-10",
+      "labor_cost": 1788.0,
+      "labor_hours": 82.36,
+      "staff_count": 11,
+      "net_revenue": 10870.38,
+      "labor_pct": 0.16448367030407401,
+      "splh": 131.98615832928604,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-11",
+      "labor_cost": 2027.18,
+      "labor_hours": 91.27,
+      "staff_count": 11,
+      "net_revenue": 13003.02,
+      "labor_pct": 0.1559007061436497,
+      "splh": 142.46762353456776,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-12",
+      "labor_cost": 2536.4700000000003,
+      "labor_hours": 119.95,
+      "staff_count": 16,
+      "net_revenue": 18501.5,
+      "labor_pct": 0.13709537064562335,
+      "splh": 154.2434347644852,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-13",
+      "labor_cost": 3096.77,
+      "labor_hours": 149.43,
+      "staff_count": 20,
+      "net_revenue": 17895.58,
+      "labor_pct": 0.17304664056711208,
+      "splh": 119.75895067924782,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-14",
+      "labor_cost": 3521.9900000000002,
+      "labor_hours": 167.84,
+      "staff_count": 20,
+      "net_revenue": 20517.71,
+      "labor_pct": 0.1716560961237877,
+      "splh": 122.24565061963774,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-02-15",
+      "labor_cost": 2910.1,
+      "labor_hours": 136.99,
+      "staff_count": 16,
+      "net_revenue": 17304.0,
+      "labor_pct": 0.16817498844197873,
+      "splh": 126.3157894736842,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-16",
+      "labor_cost": 1258.24,
+      "labor_hours": 67.09,
+      "staff_count": 10,
+      "net_revenue": 9947.15,
+      "labor_pct": 0.1264925129308395,
+      "splh": 148.26576240870472,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-17",
+      "labor_cost": 1855.98,
+      "labor_hours": 84.73,
+      "staff_count": 11,
+      "net_revenue": 11876.5,
+      "labor_pct": 0.1562733128446933,
+      "splh": 140.1687713914788,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-18",
+      "labor_cost": 1676.77,
+      "labor_hours": 76.37,
+      "staff_count": 11,
+      "net_revenue": 13282.35,
+      "labor_pct": 0.12624046196644417,
+      "splh": 173.92104229409455,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-19",
+      "labor_cost": 2552.68,
+      "labor_hours": 121.11,
+      "staff_count": 16,
+      "net_revenue": 17738.35,
+      "labor_pct": 0.14390740965196877,
+      "splh": 146.4647840805879,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-20",
+      "labor_cost": 2920.04,
+      "labor_hours": 142.66,
+      "staff_count": 20,
+      "net_revenue": 23193.25,
+      "labor_pct": 0.12590042361462925,
+      "splh": 162.57710640684144,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-21",
+      "labor_cost": 3558.77,
+      "labor_hours": 169.43,
+      "staff_count": 20,
+      "net_revenue": 21615.25,
+      "labor_pct": 0.164641630330438,
+      "splh": 127.57628519152452,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-02-22",
+      "labor_cost": 2785.91,
+      "labor_hours": 132.14000000000001,
+      "staff_count": 16,
+      "net_revenue": 14097.8,
+      "labor_pct": 0.19761310275362112,
+      "splh": 106.68836082942332,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-23",
+      "labor_cost": 1247.75,
+      "labor_hours": 66.74,
+      "staff_count": 10,
+      "net_revenue": 11213.7,
+      "labor_pct": 0.11127014277178808,
+      "splh": 168.0206772550195,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-24",
+      "labor_cost": 1968.01,
+      "labor_hours": 90.2,
+      "staff_count": 11,
+      "net_revenue": 13498.35,
+      "labor_pct": 0.1457963380709494,
+      "splh": 149.64911308203992,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-25",
+      "labor_cost": 1878.8899999999999,
+      "labor_hours": 85.79,
+      "staff_count": 11,
+      "net_revenue": 13442.45,
+      "labor_pct": 0.13977288366332027,
+      "splh": 156.69017367991606,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-26",
+      "labor_cost": 2423.21,
+      "labor_hours": 115.09,
+      "staff_count": 16,
+      "net_revenue": 16289.4,
+      "labor_pct": 0.14875992977028007,
+      "splh": 141.53618906942393,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-27",
+      "labor_cost": 3146.29,
+      "labor_hours": 151.77,
+      "staff_count": 20,
+      "net_revenue": 19854.78,
+      "labor_pct": 0.15846511520147794,
+      "splh": 130.82150622652696,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-28",
+      "labor_cost": 3554.0,
+      "labor_hours": 169.87,
+      "staff_count": 20,
+      "net_revenue": 23782.45,
+      "labor_pct": 0.14943792586550167,
+      "splh": 140.0038264555248,
+      "day_of_week": "Saturday"
+    }
+  ],
+  "foh_boh_split": [
+    {
+      "group": "BOH",
+      "labor_cost": 35953.49,
+      "paid_hours": 1538.81,
+      "headcount": 9,
+      "pct_of_total": 0.5255675103045817
+    },
+    {
+      "group": "FOH",
+      "labor_cost": 32455.4,
+      "paid_hours": 1723.49,
+      "headcount": 12,
+      "pct_of_total": 0.4744324896954183
+    }
+  ],
+  "by_role": [
+    {
+      "role": "Server",
+      "group": "BOH",
+      "labor_cost": 18595.1,
+      "paid_hours": 956.62,
+      "headcount": 6,
+      "avg_hourly_rate": 19.438334971043883,
+      "pct_of_total": 0.2718228581109853
+    },
+    {
+      "role": "Line Cook",
+      "group": "BOH",
+      "labor_cost": 14323.96,
+      "paid_hours": 665.93,
+      "headcount": 4,
+      "avg_hourly_rate": 21.50970822759149,
+      "pct_of_total": 0.20938740564274613
+    },
+    {
+      "role": "Head Chef",
+      "group": "BOH",
+      "labor_cost": 11486.4,
+      "paid_hours": 303.31,
+      "headcount": 1,
+      "avg_hourly_rate": 37.87016583693251,
+      "pct_of_total": 0.1679080014308082
+    },
+    {
+      "role": "Bartender",
+      "group": "BOH",
+      "labor_cost": 5365.91,
+      "paid_hours": 278.73,
+      "headcount": 2,
+      "avg_hourly_rate": 19.251282603236106,
+      "pct_of_total": 0.07843878186007695
+    },
+    {
+      "role": "Dishwasher",
+      "group": "BOH",
+      "labor_cost": 5127.2,
+      "paid_hours": 294.66,
+      "headcount": 2,
+      "avg_hourly_rate": 17.400393674065022,
+      "pct_of_total": 0.07494932310698214
+    },
+    {
+      "role": "Prep Cook",
+      "group": "BOH",
+      "labor_cost": 5015.93,
+      "paid_hours": 274.91,
+      "headcount": 2,
+      "avg_hourly_rate": 18.245716780037103,
+      "pct_of_total": 0.07332278012404529
+    },
+    {
+      "role": "Busser",
+      "group": "BOH",
+      "labor_cost": 4599.11,
+      "paid_hours": 264.27,
+      "headcount": 2,
+      "avg_hourly_rate": 17.403072615128465,
+      "pct_of_total": 0.0672297123955673
+    },
+    {
+      "role": "Host",
+      "group": "BOH",
+      "labor_cost": 3895.28,
+      "paid_hours": 223.87,
+      "headcount": 2,
+      "avg_hourly_rate": 17.399740921070265,
+      "pct_of_total": 0.0569411373287887
+    }
+  ],
+  "overtime_detail": [
+    {
+      "employee_name": "Chef Ryan D.",
+      "overtime_hours": 111.31,
+      "overtime_shifts": 24,
+      "overtime_cost": 11486.4
+    },
+    {
+      "employee_name": "James L.",
+      "overtime_hours": 38.97,
+      "overtime_shifts": 12,
+      "overtime_cost": 2687.84
+    },
+    {
+      "employee_name": "Sarah M.",
+      "overtime_hours": 34.2,
+      "overtime_shifts": 11,
+      "overtime_cost": 2423.81
+    },
+    {
+      "employee_name": "Leo C.",
+      "overtime_hours": 32.33,
+      "overtime_shifts": 11,
+      "overtime_cost": 2375.52
+    },
+    {
+      "employee_name": "Priya K.",
+      "overtime_hours": 31.07,
+      "overtime_shifts": 10,
+      "overtime_cost": 2278.8
+    },
+    {
+      "employee_name": "Emma W.",
+      "overtime_hours": 30.91,
+      "overtime_shifts": 10,
+      "overtime_cost": 2337.48
+    },
+    {
+      "employee_name": "Marcus T.",
+      "overtime_hours": 22.6,
+      "overtime_shifts": 7,
+      "overtime_cost": 1564.25
+    },
+    {
+      "employee_name": "Yuki T.",
+      "overtime_hours": 12.17,
+      "overtime_shifts": 10,
+      "overtime_cost": 2063.24
+    },
+    {
+      "employee_name": "Sonia A.",
+      "overtime_hours": 11.8,
+      "overtime_shifts": 11,
+      "overtime_cost": 2114.0
+    },
+    {
+      "employee_name": "Derek J.",
+      "overtime_hours": 9.21,
+      "overtime_shifts": 9,
+      "overtime_cost": 1759.4
+    },
+    {
+      "employee_name": "Carlos P.",
+      "overtime_hours": 8.36,
+      "overtime_shifts": 9,
+      "overtime_cost": 1860.1
+    }
+  ],
+  "splh_trend": [
+    {
+      "date": "2026-02-01",
+      "splh": 112.2464679340188,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-02",
+      "splh": 170.60982495765103,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-03",
+      "splh": 141.05111008325625,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-04",
+      "splh": 151.7226520652303,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-05",
+      "splh": 142.48320821809563,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-06",
+      "splh": 138.24768756423433,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-07",
+      "splh": 138.36927621861153,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-02-08",
+      "splh": 118.30685810294791,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-09",
+      "splh": 140.42166484914577,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-10",
+      "splh": 131.98615832928604,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-11",
+      "splh": 142.46762353456776,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-12",
+      "splh": 154.2434347644852,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-13",
+      "splh": 119.75895067924782,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-14",
+      "splh": 122.24565061963774,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-02-15",
+      "splh": 126.3157894736842,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-16",
+      "splh": 148.26576240870472,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-17",
+      "splh": 140.1687713914788,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-18",
+      "splh": 173.92104229409455,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-19",
+      "splh": 146.4647840805879,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-20",
+      "splh": 162.57710640684144,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-21",
+      "splh": 127.57628519152452,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-02-22",
+      "splh": 106.68836082942332,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-02-23",
+      "splh": 168.0206772550195,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-02-24",
+      "splh": 149.64911308203992,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-02-25",
+      "splh": 156.69017367991606,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-02-26",
+      "splh": 141.53618906942393,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-02-27",
+      "splh": 130.82150622652696,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-02-28",
+      "splh": 140.0038264555248,
+      "day_of_week": "Saturday"
+    }
+  ],
+  "extended": {
+    "dow_staffing": [
+      {
+        "day_of_week": "Monday",
+        "avg_staff": 19,
+        "avg_hours": 287.2,
+        "avg_labor_cost": 5466.99,
+        "total_sales": 44835.85,
+        "num_weeks": 5,
+        "avg_daily_sales": 8967.17,
+        "avg_daily_labor": 1093.398,
+        "labor_pct": 0.1219334528
+      },
+      {
+        "day_of_week": "Tuesday",
+        "avg_staff": 21,
+        "avg_hours": 343.77,
+        "avg_labor_cost": 7478.65,
+        "total_sales": 48443.33,
+        "num_weeks": 5,
+        "avg_daily_sales": 9688.666,
+        "avg_daily_labor": 1495.73,
+        "labor_pct": 0.1543793542
+      },
+      {
+        "day_of_week": "Wednesday",
+        "avg_staff": 21,
+        "avg_hours": 337.44,
+        "avg_labor_cost": 7391.97,
+        "total_sales": 52474.04,
+        "num_weeks": 4,
+        "avg_daily_sales": 13118.51,
+        "avg_daily_labor": 1847.9925,
+        "labor_pct": 0.140869085
+      },
+      {
+        "day_of_week": "Thursday",
+        "avg_staff": 21,
+        "avg_hours": 482.7,
+        "avg_labor_cost": 10198.64,
+        "total_sales": 70560.5,
+        "num_weeks": 4,
+        "avg_daily_sales": 17640.125,
+        "avg_daily_labor": 2549.66,
+        "labor_pct": 0.1445375245
+      },
+      {
+        "day_of_week": "Friday",
+        "avg_staff": 21,
+        "avg_hours": 599.54,
+        "avg_labor_cost": 12390.04,
+        "total_sales": 82466.01,
+        "num_weeks": 4,
+        "avg_daily_sales": 20616.5025,
+        "avg_daily_labor": 3097.51,
+        "labor_pct": 0.1502442036
+      },
+      {
+        "day_of_week": "Saturday",
+        "avg_staff": 21,
+        "avg_hours": 676.39,
+        "avg_labor_cost": 14175.54,
+        "total_sales": 89334.41,
+        "num_weeks": 4,
+        "avg_daily_sales": 22333.6025,
+        "avg_daily_labor": 3543.885,
+        "labor_pct": 0.1586795055
+      },
+      {
+        "day_of_week": "Sunday",
+        "avg_staff": 21,
+        "avg_hours": 535.26,
+        "avg_labor_cost": 11307.06,
+        "total_sales": 62067.5,
+        "num_weeks": 5,
+        "avg_daily_sales": 12413.5,
+        "avg_daily_labor": 2261.412,
+        "labor_pct": 0.1821736013
+      }
+    ]
+  }
+}

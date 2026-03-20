@@ -1,0 +1,4866 @@
+{
+  "total_orders": 474,
+  "completed_orders": 457,
+  "canceled_orders": 17,
+  "cancel_rate": 0.0359,
+  "gross_revenue": 33490.0,
+  "net_payout": 23222.52,
+  "effective_margin_pct": 0.6934,
+  "avg_order_value": 73.28,
+  "platform_comparison": [
+    {
+      "platform": "DoorDash",
+      "order_count": 181,
+      "gross_revenue": 12756.0,
+      "net_payout": 9222.41,
+      "total_fees": 3560.69,
+      "effective_margin_pct": 0.7229860457823769,
+      "avg_order_value": 70.47513812154696,
+      "avg_prep_time": 15.20939226519337,
+      "avg_delivery_time": 31.64917127071823,
+      "avg_rating": 4.460365853658536
+    },
+    {
+      "platform": "Uber Eats",
+      "order_count": 276,
+      "gross_revenue": 20734.0,
+      "net_payout": 14000.11,
+      "total_fees": 6759.29,
+      "effective_margin_pct": 0.6752247516157037,
+      "avg_order_value": 75.1231884057971,
+      "avg_prep_time": 15.164855072463768,
+      "avg_delivery_time": 30.704710144927535,
+      "avg_rating": 4.519011406844107
+    }
+  ],
+  "daily_trend": [
+    {
+      "date_only": "2026-02-01T00:00:00.000",
+      "order_count": 17,
+      "gross_sales": 1266.0,
+      "net_payout": 872.19,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date_only": "2026-02-02T00:00:00.000",
+      "order_count": 11,
+      "gross_sales": 973.0,
+      "net_payout": 680.02,
+      "day_of_week": "Monday"
+    },
+    {
+      "date_only": "2026-02-03T00:00:00.000",
+      "order_count": 14,
+      "gross_sales": 1082.0,
+      "net_payout": 739.88,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date_only": "2026-02-04T00:00:00.000",
+      "order_count": 15,
+      "gross_sales": 1184.0,
+      "net_payout": 824.81,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date_only": "2026-02-05T00:00:00.000",
+      "order_count": 13,
+      "gross_sales": 885.0,
+      "net_payout": 624.1,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date_only": "2026-02-06T00:00:00.000",
+      "order_count": 23,
+      "gross_sales": 1443.0,
+      "net_payout": 1002.77,
+      "day_of_week": "Friday"
+    },
+    {
+      "date_only": "2026-02-07T00:00:00.000",
+      "order_count": 26,
+      "gross_sales": 2014.0,
+      "net_payout": 1413.57,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date_only": "2026-02-08T00:00:00.000",
+      "order_count": 20,
+      "gross_sales": 1545.0,
+      "net_payout": 1064.69,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date_only": "2026-02-09T00:00:00.000",
+      "order_count": 10,
+      "gross_sales": 877.0,
+      "net_payout": 614.56,
+      "day_of_week": "Monday"
+    },
+    {
+      "date_only": "2026-02-10T00:00:00.000",
+      "order_count": 12,
+      "gross_sales": 871.0,
+      "net_payout": 606.81,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date_only": "2026-02-11T00:00:00.000",
+      "order_count": 12,
+      "gross_sales": 1020.0,
+      "net_payout": 717.8,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date_only": "2026-02-12T00:00:00.000",
+      "order_count": 9,
+      "gross_sales": 683.0,
+      "net_payout": 472.32,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date_only": "2026-02-13T00:00:00.000",
+      "order_count": 23,
+      "gross_sales": 1596.0,
+      "net_payout": 1094.51,
+      "day_of_week": "Friday"
+    },
+    {
+      "date_only": "2026-02-14T00:00:00.000",
+      "order_count": 23,
+      "gross_sales": 1652.0,
+      "net_payout": 1149.81,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date_only": "2026-02-15T00:00:00.000",
+      "order_count": 15,
+      "gross_sales": 884.0,
+      "net_payout": 608.03,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date_only": "2026-02-16T00:00:00.000",
+      "order_count": 12,
+      "gross_sales": 843.0,
+      "net_payout": 591.72,
+      "day_of_week": "Monday"
+    },
+    {
+      "date_only": "2026-02-17T00:00:00.000",
+      "order_count": 14,
+      "gross_sales": 993.0,
+      "net_payout": 672.07,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date_only": "2026-02-18T00:00:00.000",
+      "order_count": 14,
+      "gross_sales": 1050.0,
+      "net_payout": 742.56,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date_only": "2026-02-19T00:00:00.000",
+      "order_count": 12,
+      "gross_sales": 811.0,
+      "net_payout": 556.8,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date_only": "2026-02-20T00:00:00.000",
+      "order_count": 21,
+      "gross_sales": 1516.0,
+      "net_payout": 1057.74,
+      "day_of_week": "Friday"
+    },
+    {
+      "date_only": "2026-02-21T00:00:00.000",
+      "order_count": 20,
+      "gross_sales": 1542.0,
+      "net_payout": 1065.99,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date_only": "2026-02-22T00:00:00.000",
+      "order_count": 20,
+      "gross_sales": 1319.0,
+      "net_payout": 904.83,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date_only": "2026-02-23T00:00:00.000",
+      "order_count": 13,
+      "gross_sales": 1020.0,
+      "net_payout": 692.48,
+      "day_of_week": "Monday"
+    },
+    {
+      "date_only": "2026-02-24T00:00:00.000",
+      "order_count": 15,
+      "gross_sales": 1074.0,
+      "net_payout": 748.49,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date_only": "2026-02-25T00:00:00.000",
+      "order_count": 8,
+      "gross_sales": 671.0,
+      "net_payout": 459.64,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date_only": "2026-02-26T00:00:00.000",
+      "order_count": 16,
+      "gross_sales": 1163.0,
+      "net_payout": 807.44,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date_only": "2026-02-27T00:00:00.000",
+      "order_count": 26,
+      "gross_sales": 1837.0,
+      "net_payout": 1271.57,
+      "day_of_week": "Friday"
+    },
+    {
+      "date_only": "2026-02-28T00:00:00.000",
+      "order_count": 23,
+      "gross_sales": 1676.0,
+      "net_payout": 1165.32,
+      "day_of_week": "Saturday"
+    }
+  ],
+  "extended": {
+    "hourly_pattern": [
+      {
+        "hour": 11,
+        "order_count": 37,
+        "gross_sales": 2923.0
+      },
+      {
+        "hour": 12,
+        "order_count": 41,
+        "gross_sales": 2994.0
+      },
+      {
+        "hour": 13,
+        "order_count": 45,
+        "gross_sales": 3141.0
+      },
+      {
+        "hour": 14,
+        "order_count": 43,
+        "gross_sales": 2835.0
+      },
+      {
+        "hour": 15,
+        "order_count": 37,
+        "gross_sales": 2753.0
+      },
+      {
+        "hour": 16,
+        "order_count": 33,
+        "gross_sales": 2409.0
+      },
+      {
+        "hour": 17,
+        "order_count": 46,
+        "gross_sales": 3344.0
+      },
+      {
+        "hour": 18,
+        "order_count": 52,
+        "gross_sales": 3815.0
+      },
+      {
+        "hour": 19,
+        "order_count": 51,
+        "gross_sales": 4010.0
+      },
+      {
+        "hour": 20,
+        "order_count": 34,
+        "gross_sales": 2384.0
+      },
+      {
+        "hour": 21,
+        "order_count": 38,
+        "gross_sales": 2882.0
+      }
+    ],
+    "margin_analysis": [
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-41516649",
+        "gross_sales": 43.0,
+        "net_payout": 22.11,
+        "commission_amount": -12.9,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.5141860465
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-35150726",
+        "gross_sales": 41.0,
+        "net_payout": 21.21,
+        "commission_amount": -12.3,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.5173170732
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-48131003",
+        "gross_sales": 70.0,
+        "net_payout": 36.56,
+        "commission_amount": -21.0,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.5222857143
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-49960126",
+        "gross_sales": 18.0,
+        "net_payout": 9.51,
+        "commission_amount": -4.5,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.5283333333
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-88432782",
+        "gross_sales": 18.0,
+        "net_payout": 9.61,
+        "commission_amount": -5.4,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.5338888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-46758609",
+        "gross_sales": 66.0,
+        "net_payout": 35.69,
+        "commission_amount": -19.8,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.5407575758
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-14170522",
+        "gross_sales": 41.0,
+        "net_payout": 22.21,
+        "commission_amount": -12.3,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.5417073171
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-87633490",
+        "gross_sales": 44.0,
+        "net_payout": 24.42,
+        "commission_amount": -11.0,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.555
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-36712236",
+        "gross_sales": 113.0,
+        "net_payout": 63.72,
+        "commission_amount": -33.9,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.5638938053
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-32545830",
+        "gross_sales": 39.0,
+        "net_payout": 22.25,
+        "commission_amount": -9.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.5705128205
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-32447374",
+        "gross_sales": 20.0,
+        "net_payout": 11.51,
+        "commission_amount": -5.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.5755
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-90087699",
+        "gross_sales": 20.0,
+        "net_payout": 11.51,
+        "commission_amount": -6.0,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.5755
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-22148396",
+        "gross_sales": 93.0,
+        "net_payout": 54.3,
+        "commission_amount": -27.9,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.5838709677
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-38560125",
+        "gross_sales": 56.0,
+        "net_payout": 32.71,
+        "commission_amount": -16.8,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.5841071429
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-49074407",
+        "gross_sales": 18.0,
+        "net_payout": 10.61,
+        "commission_amount": -5.4,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.5894444444
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-79393021",
+        "gross_sales": 44.0,
+        "net_payout": 26.0,
+        "commission_amount": -11.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.5909090909
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-52276832",
+        "gross_sales": 19.0,
+        "net_payout": 11.31,
+        "commission_amount": -5.7,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.5952631579
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-28198621",
+        "gross_sales": 19.0,
+        "net_payout": 11.31,
+        "commission_amount": -5.7,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.5952631579
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-91879315",
+        "gross_sales": 70.0,
+        "net_payout": 42.01,
+        "commission_amount": -21.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6001428571
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-76533629",
+        "gross_sales": 20.0,
+        "net_payout": 12.01,
+        "commission_amount": -5.0,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6005
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-75451615",
+        "gross_sales": 37.0,
+        "net_payout": 22.25,
+        "commission_amount": -9.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6013513514
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-39522639",
+        "gross_sales": 80.0,
+        "net_payout": 48.12,
+        "commission_amount": -20.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6015
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-87441701",
+        "gross_sales": 37.0,
+        "net_payout": 22.41,
+        "commission_amount": -11.1,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6056756757
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-73244549",
+        "gross_sales": 66.0,
+        "net_payout": 40.21,
+        "commission_amount": -19.8,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6092424242
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-76027620",
+        "gross_sales": 18.0,
+        "net_payout": 11.01,
+        "commission_amount": -4.5,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6116666667
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-71679528",
+        "gross_sales": 18.0,
+        "net_payout": 11.01,
+        "commission_amount": -4.5,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6116666667
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-80224311",
+        "gross_sales": 63.0,
+        "net_payout": 38.61,
+        "commission_amount": -18.9,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6128571429
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-52570338",
+        "gross_sales": 92.0,
+        "net_payout": 56.58,
+        "commission_amount": -23.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.615
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-17353982",
+        "gross_sales": 18.0,
+        "net_payout": 11.1,
+        "commission_amount": -5.4,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6166666667
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-44581797",
+        "gross_sales": 18.0,
+        "net_payout": 11.11,
+        "commission_amount": -5.4,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6172222222
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-44953303",
+        "gross_sales": 18.0,
+        "net_payout": 11.11,
+        "commission_amount": -5.4,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6172222222
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42433524",
+        "gross_sales": 37.0,
+        "net_payout": 22.91,
+        "commission_amount": -11.1,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6191891892
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-86512353",
+        "gross_sales": 77.0,
+        "net_payout": 47.96,
+        "commission_amount": -23.1,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6228571429
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-47721040",
+        "gross_sales": 39.0,
+        "net_payout": 24.31,
+        "commission_amount": -11.7,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6233333333
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-84840521",
+        "gross_sales": 20.0,
+        "net_payout": 12.51,
+        "commission_amount": -5.0,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6255
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-93580297",
+        "gross_sales": 20.0,
+        "net_payout": 12.51,
+        "commission_amount": -6.0,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6255
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-55191883",
+        "gross_sales": 27.0,
+        "net_payout": 16.9,
+        "commission_amount": -8.1,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.6259259259
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-22106641",
+        "gross_sales": 61.0,
+        "net_payout": 38.2,
+        "commission_amount": -18.3,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6262295082
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-83323754",
+        "gross_sales": 27.0,
+        "net_payout": 16.91,
+        "commission_amount": -8.1,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6262962963
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-50760075",
+        "gross_sales": 44.0,
+        "net_payout": 27.81,
+        "commission_amount": -13.2,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6320454545
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-89042474",
+        "gross_sales": 44.0,
+        "net_payout": 27.81,
+        "commission_amount": -13.2,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6320454545
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-80445048",
+        "gross_sales": 37.0,
+        "net_payout": 23.41,
+        "commission_amount": -11.1,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6327027027
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-10344969",
+        "gross_sales": 37.0,
+        "net_payout": 23.41,
+        "commission_amount": -11.1,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6327027027
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-22075266",
+        "gross_sales": 116.0,
+        "net_payout": 73.71,
+        "commission_amount": -34.8,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6354310345
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-58963334",
+        "gross_sales": 93.0,
+        "net_payout": 59.11,
+        "commission_amount": -27.9,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6355913978
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-60872376",
+        "gross_sales": 93.0,
+        "net_payout": 59.11,
+        "commission_amount": -27.9,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6355913978
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-72988461",
+        "gross_sales": 44.0,
+        "net_payout": 28.0,
+        "commission_amount": -11.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6363636364
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-43187769",
+        "gross_sales": 64.0,
+        "net_payout": 40.81,
+        "commission_amount": -19.2,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.63765625
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-88232865",
+        "gross_sales": 32.0,
+        "net_payout": 20.41,
+        "commission_amount": -9.6,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6378125
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-74187350",
+        "gross_sales": 41.0,
+        "net_payout": 26.21,
+        "commission_amount": -12.3,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6392682927
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-73777689",
+        "gross_sales": 18.0,
+        "net_payout": 11.51,
+        "commission_amount": -4.5,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6394444444
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-42536432",
+        "gross_sales": 18.0,
+        "net_payout": 11.51,
+        "commission_amount": -4.5,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6394444444
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-25555384",
+        "gross_sales": 75.0,
+        "net_payout": 48.0,
+        "commission_amount": -22.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.64
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-88282829",
+        "gross_sales": 59.0,
+        "net_payout": 37.8,
+        "commission_amount": -17.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6406779661
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-40466927",
+        "gross_sales": 43.0,
+        "net_payout": 27.61,
+        "commission_amount": -12.9,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6420930233
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-50882728",
+        "gross_sales": 114.0,
+        "net_payout": 73.31,
+        "commission_amount": -34.2,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6430701754
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-51143807",
+        "gross_sales": 62.0,
+        "net_payout": 39.91,
+        "commission_amount": -18.6,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6437096774
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33731220",
+        "gross_sales": 27.0,
+        "net_payout": 17.4,
+        "commission_amount": -8.1,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6444444444
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-67423144",
+        "gross_sales": 63.0,
+        "net_payout": 40.61,
+        "commission_amount": -18.9,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6446031746
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-31854501",
+        "gross_sales": 45.0,
+        "net_payout": 29.01,
+        "commission_amount": -13.5,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6446666667
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-26069320",
+        "gross_sales": 18.0,
+        "net_payout": 11.61,
+        "commission_amount": -5.4,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.645
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-60992451",
+        "gross_sales": 83.0,
+        "net_payout": 53.6,
+        "commission_amount": -24.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6457831325
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-75813090",
+        "gross_sales": 38.0,
+        "net_payout": 24.61,
+        "commission_amount": -11.4,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6476315789
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-98618818",
+        "gross_sales": 48.0,
+        "net_payout": 31.11,
+        "commission_amount": -14.4,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.648125
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-76607644",
+        "gross_sales": 39.0,
+        "net_payout": 25.31,
+        "commission_amount": -11.7,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.648974359
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-48856447",
+        "gross_sales": 50.0,
+        "net_payout": 32.51,
+        "commission_amount": -15.0,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6502
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-98350255",
+        "gross_sales": 20.0,
+        "net_payout": 13.01,
+        "commission_amount": -5.0,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6505
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33630438",
+        "gross_sales": 61.0,
+        "net_payout": 39.71,
+        "commission_amount": -18.3,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6509836066
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77810569",
+        "gross_sales": 52.0,
+        "net_payout": 33.91,
+        "commission_amount": -15.6,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6521153846
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-47201994",
+        "gross_sales": 75.0,
+        "net_payout": 49.01,
+        "commission_amount": -22.5,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6534666667
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33775603",
+        "gross_sales": 119.0,
+        "net_payout": 77.8,
+        "commission_amount": -35.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6537815126
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-10672050",
+        "gross_sales": 45.0,
+        "net_payout": 29.51,
+        "commission_amount": -13.5,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6557777778
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-22267497",
+        "gross_sales": 45.0,
+        "net_payout": 29.51,
+        "commission_amount": -13.5,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6557777778
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-16021958",
+        "gross_sales": 75.0,
+        "net_payout": 49.26,
+        "commission_amount": -18.75,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6568
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-48366798",
+        "gross_sales": 70.0,
+        "net_payout": 46.0,
+        "commission_amount": -21.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6571428571
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-86862021",
+        "gross_sales": 70.0,
+        "net_payout": 46.01,
+        "commission_amount": -21.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6572857143
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-88819878",
+        "gross_sales": 141.0,
+        "net_payout": 92.71,
+        "commission_amount": -42.3,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6575177305
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33791740",
+        "gross_sales": 60.0,
+        "net_payout": 39.51,
+        "commission_amount": -18.0,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6585
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-65696711",
+        "gross_sales": 97.0,
+        "net_payout": 63.91,
+        "commission_amount": -29.1,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6588659794
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-52933182",
+        "gross_sales": 85.0,
+        "net_payout": 56.01,
+        "commission_amount": -25.5,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6589411765
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-75325467",
+        "gross_sales": 85.0,
+        "net_payout": 56.01,
+        "commission_amount": -25.5,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6589411765
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-53370589",
+        "gross_sales": 75.0,
+        "net_payout": 49.51,
+        "commission_amount": -22.5,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6601333333
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-39923318",
+        "gross_sales": 38.0,
+        "net_payout": 25.1,
+        "commission_amount": -11.4,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6605263158
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-67693928",
+        "gross_sales": 76.0,
+        "net_payout": 50.21,
+        "commission_amount": -22.8,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6606578947
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-73642065",
+        "gross_sales": 89.0,
+        "net_payout": 58.81,
+        "commission_amount": -26.7,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6607865169
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-81468340",
+        "gross_sales": 64.0,
+        "net_payout": 42.31,
+        "commission_amount": -19.2,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.66109375
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-10197681",
+        "gross_sales": 79.0,
+        "net_payout": 52.26,
+        "commission_amount": -19.75,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6615189873
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-94172549",
+        "gross_sales": 91.0,
+        "net_payout": 60.21,
+        "commission_amount": -27.3,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6616483516
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-97510887",
+        "gross_sales": 65.0,
+        "net_payout": 43.01,
+        "commission_amount": -19.5,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6616923077
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-91029297",
+        "gross_sales": 52.0,
+        "net_payout": 34.41,
+        "commission_amount": -15.6,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6617307692
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-19935520",
+        "gross_sales": 66.0,
+        "net_payout": 43.71,
+        "commission_amount": -19.8,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6622727273
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-25590277",
+        "gross_sales": 80.0,
+        "net_payout": 53.01,
+        "commission_amount": -24.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.662625
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-84450239",
+        "gross_sales": 67.0,
+        "net_payout": 44.41,
+        "commission_amount": -20.1,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6628358209
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-52987823",
+        "gross_sales": 75.0,
+        "net_payout": 49.75,
+        "commission_amount": -18.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6633333333
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-51282544",
+        "gross_sales": 68.0,
+        "net_payout": 45.11,
+        "commission_amount": -20.4,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6633823529
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-69151379",
+        "gross_sales": 70.0,
+        "net_payout": 46.51,
+        "commission_amount": -21.0,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6644285714
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-65077321",
+        "gross_sales": 56.0,
+        "net_payout": 37.21,
+        "commission_amount": -16.8,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6644642857
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-98213324",
+        "gross_sales": 99.0,
+        "net_payout": 65.81,
+        "commission_amount": -29.7,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6647474747
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-28044741",
+        "gross_sales": 85.0,
+        "net_payout": 56.51,
+        "commission_amount": -25.5,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6648235294
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-98961004",
+        "gross_sales": 57.0,
+        "net_payout": 37.91,
+        "commission_amount": -17.1,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6650877193
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-16212314",
+        "gross_sales": 43.0,
+        "net_payout": 28.6,
+        "commission_amount": -12.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6651162791
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42606461",
+        "gross_sales": 86.0,
+        "net_payout": 57.21,
+        "commission_amount": -25.8,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6652325581
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-41315414",
+        "gross_sales": 73.0,
+        "net_payout": 48.61,
+        "commission_amount": -21.9,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.665890411
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77090227",
+        "gross_sales": 44.0,
+        "net_payout": 29.3,
+        "commission_amount": -13.2,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6659090909
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-47690968",
+        "gross_sales": 59.0,
+        "net_payout": 39.31,
+        "commission_amount": -17.7,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6662711864
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-26576198",
+        "gross_sales": 89.0,
+        "net_payout": 59.31,
+        "commission_amount": -26.7,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6664044944
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-53492588",
+        "gross_sales": 45.0,
+        "net_payout": 30.01,
+        "commission_amount": -13.5,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6668888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42736887",
+        "gross_sales": 45.0,
+        "net_payout": 30.01,
+        "commission_amount": -13.5,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6668888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-82081498",
+        "gross_sales": 45.0,
+        "net_payout": 30.01,
+        "commission_amount": -13.5,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6668888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-47194475",
+        "gross_sales": 92.0,
+        "net_payout": 61.41,
+        "commission_amount": -27.6,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6675
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-51063923",
+        "gross_sales": 77.0,
+        "net_payout": 51.41,
+        "commission_amount": -23.1,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6676623377
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-21422590",
+        "gross_sales": 108.0,
+        "net_payout": 72.11,
+        "commission_amount": -32.4,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6676851852
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-66813135",
+        "gross_sales": 62.0,
+        "net_payout": 41.41,
+        "commission_amount": -18.6,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6679032258
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-19340071",
+        "gross_sales": 94.0,
+        "net_payout": 62.81,
+        "commission_amount": -28.2,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6681914894
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-62401028",
+        "gross_sales": 97.0,
+        "net_payout": 64.9,
+        "commission_amount": -29.1,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6690721649
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-13164344",
+        "gross_sales": 81.0,
+        "net_payout": 54.21,
+        "commission_amount": -24.3,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6692592593
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-55584865",
+        "gross_sales": 82.0,
+        "net_payout": 54.91,
+        "commission_amount": -24.6,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6696341463
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-30850097",
+        "gross_sales": 66.0,
+        "net_payout": 44.2,
+        "commission_amount": -19.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.6696969697
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-76119259",
+        "gross_sales": 44.0,
+        "net_payout": 29.51,
+        "commission_amount": -11.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6706818182
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-99693062",
+        "gross_sales": 68.0,
+        "net_payout": 45.61,
+        "commission_amount": -20.4,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6707352941
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-10153886",
+        "gross_sales": 19.0,
+        "net_payout": 12.75,
+        "commission_amount": -4.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6710526316
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-21500062",
+        "gross_sales": 69.0,
+        "net_payout": 46.31,
+        "commission_amount": -20.7,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6711594203
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-24864870",
+        "gross_sales": 52.0,
+        "net_payout": 34.91,
+        "commission_amount": -15.6,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6713461538
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-24997843",
+        "gross_sales": 18.0,
+        "net_payout": 12.1,
+        "commission_amount": -5.4,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6722222222
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-38500184",
+        "gross_sales": 18.0,
+        "net_payout": 12.1,
+        "commission_amount": -5.4,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6722222222
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-71579702",
+        "gross_sales": 94.0,
+        "net_payout": 63.31,
+        "commission_amount": -28.2,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6735106383
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-48355129",
+        "gross_sales": 19.0,
+        "net_payout": 12.8,
+        "commission_amount": -5.7,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6736842105
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-37145805",
+        "gross_sales": 76.0,
+        "net_payout": 51.21,
+        "commission_amount": -22.8,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6738157895
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-86869806",
+        "gross_sales": 57.0,
+        "net_payout": 38.41,
+        "commission_amount": -17.1,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6738596491
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-65549654",
+        "gross_sales": 115.0,
+        "net_payout": 77.51,
+        "commission_amount": -34.5,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.674
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-17967849",
+        "gross_sales": 46.0,
+        "net_payout": 31.01,
+        "commission_amount": -11.5,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6741304348
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-68428359",
+        "gross_sales": 59.0,
+        "net_payout": 39.8,
+        "commission_amount": -17.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6745762712
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-26047123",
+        "gross_sales": 99.0,
+        "net_payout": 66.8,
+        "commission_amount": -29.7,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6747474747
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-71213798",
+        "gross_sales": 143.0,
+        "net_payout": 96.61,
+        "commission_amount": -42.9,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6755944056
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-18455317",
+        "gross_sales": 62.0,
+        "net_payout": 41.9,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6758064516
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-87710268",
+        "gross_sales": 62.0,
+        "net_payout": 41.9,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6758064516
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-97608622",
+        "gross_sales": 41.0,
+        "net_payout": 27.71,
+        "commission_amount": -12.3,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6758536585
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-66279011",
+        "gross_sales": 83.0,
+        "net_payout": 56.11,
+        "commission_amount": -24.9,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6760240964
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-94682979",
+        "gross_sales": 63.0,
+        "net_payout": 42.6,
+        "commission_amount": -18.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6761904762
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-19154961",
+        "gross_sales": 88.0,
+        "net_payout": 59.51,
+        "commission_amount": -22.0,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.67625
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-24465697",
+        "gross_sales": 27.0,
+        "net_payout": 18.26,
+        "commission_amount": -6.75,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6762962963
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-51967261",
+        "gross_sales": 84.0,
+        "net_payout": 56.81,
+        "commission_amount": -25.2,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6763095238
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-23245557",
+        "gross_sales": 106.0,
+        "net_payout": 71.71,
+        "commission_amount": -31.8,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.676509434
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-32543199",
+        "gross_sales": 64.0,
+        "net_payout": 43.31,
+        "commission_amount": -19.2,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.67671875
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-99929855",
+        "gross_sales": 43.0,
+        "net_payout": 29.1,
+        "commission_amount": -12.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.676744186
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-23991990",
+        "gross_sales": 86.0,
+        "net_payout": 58.21,
+        "commission_amount": -25.8,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6768604651
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-31526371",
+        "gross_sales": 43.0,
+        "net_payout": 29.11,
+        "commission_amount": -12.9,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6769767442
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-27524310",
+        "gross_sales": 41.0,
+        "net_payout": 27.76,
+        "commission_amount": -10.25,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6770731707
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-62588468",
+        "gross_sales": 109.0,
+        "net_payout": 73.81,
+        "commission_amount": -32.7,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6771559633
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-20765291",
+        "gross_sales": 44.0,
+        "net_payout": 29.81,
+        "commission_amount": -13.2,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6775
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-86427232",
+        "gross_sales": 89.0,
+        "net_payout": 60.31,
+        "commission_amount": -26.7,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6776404494
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-96374873",
+        "gross_sales": 90.0,
+        "net_payout": 61.01,
+        "commission_amount": -27.0,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6778888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-67910373",
+        "gross_sales": 68.0,
+        "net_payout": 46.11,
+        "commission_amount": -20.4,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6780882353
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-87265985",
+        "gross_sales": 91.0,
+        "net_payout": 61.71,
+        "commission_amount": -27.3,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6781318681
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-34518568",
+        "gross_sales": 91.0,
+        "net_payout": 61.71,
+        "commission_amount": -27.3,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6781318681
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-35265416",
+        "gross_sales": 91.0,
+        "net_payout": 61.71,
+        "commission_amount": -27.3,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6781318681
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-32174219",
+        "gross_sales": 69.0,
+        "net_payout": 46.8,
+        "commission_amount": -20.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6782608696
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-72377738",
+        "gross_sales": 92.0,
+        "net_payout": 62.41,
+        "commission_amount": -27.6,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6783695652
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77592799",
+        "gross_sales": 70.0,
+        "net_payout": 47.5,
+        "commission_amount": -21.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6785714286
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-16346590",
+        "gross_sales": 71.0,
+        "net_payout": 48.21,
+        "commission_amount": -21.3,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6790140845
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-96973982",
+        "gross_sales": 143.0,
+        "net_payout": 97.11,
+        "commission_amount": -42.9,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6790909091
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-12340092",
+        "gross_sales": 99.0,
+        "net_payout": 67.26,
+        "commission_amount": -24.75,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6793939394
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-90469342",
+        "gross_sales": 99.0,
+        "net_payout": 67.31,
+        "commission_amount": -29.7,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6798989899
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-92115952",
+        "gross_sales": 75.0,
+        "net_payout": 51.0,
+        "commission_amount": -22.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.68
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-27255142",
+        "gross_sales": 100.0,
+        "net_payout": 68.01,
+        "commission_amount": -30.0,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6801
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-79926318",
+        "gross_sales": 75.0,
+        "net_payout": 51.01,
+        "commission_amount": -22.5,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6801333333
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-62369002",
+        "gross_sales": 50.0,
+        "net_payout": 34.01,
+        "commission_amount": -15.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6802
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-37462550",
+        "gross_sales": 127.0,
+        "net_payout": 86.41,
+        "commission_amount": -38.1,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6803937008
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-70232542",
+        "gross_sales": 77.0,
+        "net_payout": 52.4,
+        "commission_amount": -23.1,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6805194805
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-78759227",
+        "gross_sales": 77.0,
+        "net_payout": 52.4,
+        "commission_amount": -23.1,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6805194805
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-59055056",
+        "gross_sales": 107.0,
+        "net_payout": 72.91,
+        "commission_amount": -32.1,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6814018692
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-90434981",
+        "gross_sales": 81.0,
+        "net_payout": 55.21,
+        "commission_amount": -24.3,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6816049383
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-81545389",
+        "gross_sales": 111.0,
+        "net_payout": 75.71,
+        "commission_amount": -33.3,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6820720721
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-26460622",
+        "gross_sales": 56.0,
+        "net_payout": 38.2,
+        "commission_amount": -16.8,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6821428571
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-76702422",
+        "gross_sales": 85.0,
+        "net_payout": 58.0,
+        "commission_amount": -25.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6823529412
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-50413577",
+        "gross_sales": 114.0,
+        "net_payout": 77.81,
+        "commission_amount": -34.2,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6825438596
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77237124",
+        "gross_sales": 86.0,
+        "net_payout": 58.71,
+        "commission_amount": -25.8,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6826744186
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-85744230",
+        "gross_sales": 37.0,
+        "net_payout": 25.26,
+        "commission_amount": -9.25,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6827027027
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-85360026",
+        "gross_sales": 118.0,
+        "net_payout": 80.61,
+        "commission_amount": -35.4,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6831355932
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-43309454",
+        "gross_sales": 89.0,
+        "net_payout": 60.8,
+        "commission_amount": -26.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6831460674
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-13945653",
+        "gross_sales": 45.0,
+        "net_payout": 30.76,
+        "commission_amount": -11.25,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6835555556
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-71727246",
+        "gross_sales": 122.0,
+        "net_payout": 83.41,
+        "commission_amount": -36.6,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6836885246
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-59781163",
+        "gross_sales": 92.0,
+        "net_payout": 62.9,
+        "commission_amount": -27.6,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6836956522
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-79003940",
+        "gross_sales": 62.0,
+        "net_payout": 42.4,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6838709677
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-91912060",
+        "gross_sales": 62.0,
+        "net_payout": 42.4,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6838709677
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-63543172",
+        "gross_sales": 63.0,
+        "net_payout": 43.1,
+        "commission_amount": -18.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6841269841
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-94333163",
+        "gross_sales": 63.0,
+        "net_payout": 43.1,
+        "commission_amount": -18.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6841269841
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-92156468",
+        "gross_sales": 126.0,
+        "net_payout": 86.21,
+        "commission_amount": -37.8,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6842063492
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-98076933",
+        "gross_sales": 64.0,
+        "net_payout": 43.81,
+        "commission_amount": -19.2,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.68453125
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-53979834",
+        "gross_sales": 129.0,
+        "net_payout": 88.31,
+        "commission_amount": -38.7,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6845736434
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-15767532",
+        "gross_sales": 132.0,
+        "net_payout": 90.41,
+        "commission_amount": -39.6,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6849242424
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-58415548",
+        "gross_sales": 100.0,
+        "net_payout": 68.5,
+        "commission_amount": -30.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.685
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-51319042",
+        "gross_sales": 134.0,
+        "net_payout": 91.81,
+        "commission_amount": -40.2,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6851492537
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77703796",
+        "gross_sales": 68.0,
+        "net_payout": 46.61,
+        "commission_amount": -20.4,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6854411765
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-96897364",
+        "gross_sales": 62.0,
+        "net_payout": 42.51,
+        "commission_amount": -15.5,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6856451613
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-25350292",
+        "gross_sales": 104.0,
+        "net_payout": 71.31,
+        "commission_amount": -31.2,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6856730769
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-69395515",
+        "gross_sales": 105.0,
+        "net_payout": 72.0,
+        "commission_amount": -31.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6857142857
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-56534584",
+        "gross_sales": 105.0,
+        "net_payout": 72.01,
+        "commission_amount": -31.5,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6858095238
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-16324409",
+        "gross_sales": 106.0,
+        "net_payout": 72.71,
+        "commission_amount": -31.8,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6859433962
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33489380",
+        "gross_sales": 71.0,
+        "net_payout": 48.71,
+        "commission_amount": -21.3,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.686056338
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-98573315",
+        "gross_sales": 108.0,
+        "net_payout": 74.1,
+        "commission_amount": -32.4,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6861111111
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-90969140",
+        "gross_sales": 111.0,
+        "net_payout": 76.21,
+        "commission_amount": -33.3,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.6865765766
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-70092254",
+        "gross_sales": 149.0,
+        "net_payout": 102.31,
+        "commission_amount": -44.7,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6866442953
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-24386795",
+        "gross_sales": 76.0,
+        "net_payout": 52.2,
+        "commission_amount": -22.8,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6868421053
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-97707454",
+        "gross_sales": 79.0,
+        "net_payout": 54.31,
+        "commission_amount": -23.7,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6874683544
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-47265405",
+        "gross_sales": 120.0,
+        "net_payout": 82.51,
+        "commission_amount": -36.0,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6875833333
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-57039522",
+        "gross_sales": 121.0,
+        "net_payout": 83.2,
+        "commission_amount": -36.3,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.6876033058
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-79403488",
+        "gross_sales": 48.0,
+        "net_payout": 33.01,
+        "commission_amount": -12.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.6877083333
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-49636928",
+        "gross_sales": 81.0,
+        "net_payout": 55.71,
+        "commission_amount": -24.3,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6877777778
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-92380781",
+        "gross_sales": 122.0,
+        "net_payout": 83.91,
+        "commission_amount": -36.6,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.6877868852
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-47811709",
+        "gross_sales": 41.0,
+        "net_payout": 28.2,
+        "commission_amount": -12.3,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.687804878
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-49639538",
+        "gross_sales": 123.0,
+        "net_payout": 84.6,
+        "commission_amount": -36.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.687804878
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-37385667",
+        "gross_sales": 84.0,
+        "net_payout": 57.81,
+        "commission_amount": -25.2,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6882142857
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-48446490",
+        "gross_sales": 43.0,
+        "net_payout": 29.6,
+        "commission_amount": -12.9,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.688372093
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-26579300",
+        "gross_sales": 86.0,
+        "net_payout": 59.2,
+        "commission_amount": -25.8,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.688372093
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-28351307",
+        "gross_sales": 44.0,
+        "net_payout": 30.3,
+        "commission_amount": -13.2,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6886363636
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-63152715",
+        "gross_sales": 88.0,
+        "net_payout": 60.6,
+        "commission_amount": -26.4,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6886363636
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-76802629",
+        "gross_sales": 89.0,
+        "net_payout": 61.3,
+        "commission_amount": -26.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6887640449
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-78410844",
+        "gross_sales": 45.0,
+        "net_payout": 31.0,
+        "commission_amount": -13.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6888888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-69497842",
+        "gross_sales": 45.0,
+        "net_payout": 31.0,
+        "commission_amount": -13.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6888888889
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-50140331",
+        "gross_sales": 91.0,
+        "net_payout": 62.7,
+        "commission_amount": -27.3,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.689010989
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-15082355",
+        "gross_sales": 46.0,
+        "net_payout": 31.7,
+        "commission_amount": -13.8,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6891304348
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-49184057",
+        "gross_sales": 94.0,
+        "net_payout": 64.81,
+        "commission_amount": -28.2,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6894680851
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42008937",
+        "gross_sales": 148.0,
+        "net_payout": 102.1,
+        "commission_amount": -44.4,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6898648649
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-37080904",
+        "gross_sales": 99.0,
+        "net_payout": 68.3,
+        "commission_amount": -29.7,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6898989899
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-63771232",
+        "gross_sales": 50.0,
+        "net_payout": 34.5,
+        "commission_amount": -15.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.69
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42464380",
+        "gross_sales": 100.0,
+        "net_payout": 69.0,
+        "commission_amount": -30.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.69
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-28064951",
+        "gross_sales": 101.0,
+        "net_payout": 69.7,
+        "commission_amount": -30.3,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6900990099
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-29708370",
+        "gross_sales": 102.0,
+        "net_payout": 70.41,
+        "commission_amount": -30.6,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6902941176
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-93408138",
+        "gross_sales": 108.0,
+        "net_payout": 74.6,
+        "commission_amount": -32.4,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6907407407
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-67038679",
+        "gross_sales": 110.0,
+        "net_payout": 76.0,
+        "commission_amount": -33.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6909090909
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-15386665",
+        "gross_sales": 113.0,
+        "net_payout": 78.1,
+        "commission_amount": -33.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6911504425
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-23925810",
+        "gross_sales": 113.0,
+        "net_payout": 78.1,
+        "commission_amount": -33.9,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6911504425
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-16054087",
+        "gross_sales": 118.0,
+        "net_payout": 81.6,
+        "commission_amount": -35.4,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6915254237
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-39877944",
+        "gross_sales": 61.0,
+        "net_payout": 42.2,
+        "commission_amount": -18.3,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6918032787
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-50314166",
+        "gross_sales": 62.0,
+        "net_payout": 42.9,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6919354839
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-30110139",
+        "gross_sales": 62.0,
+        "net_payout": 42.9,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6919354839
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-32505075",
+        "gross_sales": 123.0,
+        "net_payout": 85.11,
+        "commission_amount": -36.9,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.6919512195
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-37319692",
+        "gross_sales": 66.0,
+        "net_payout": 45.7,
+        "commission_amount": -19.8,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6924242424
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-96202392",
+        "gross_sales": 66.0,
+        "net_payout": 45.7,
+        "commission_amount": -19.8,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6924242424
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33979349",
+        "gross_sales": 67.0,
+        "net_payout": 46.4,
+        "commission_amount": -20.1,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6925373134
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42381060",
+        "gross_sales": 68.0,
+        "net_payout": 47.1,
+        "commission_amount": -20.4,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6926470588
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-20140011",
+        "gross_sales": 69.0,
+        "net_payout": 47.8,
+        "commission_amount": -20.7,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6927536232
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-20345418",
+        "gross_sales": 70.0,
+        "net_payout": 48.5,
+        "commission_amount": -21.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6928571429
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-83334445",
+        "gross_sales": 147.0,
+        "net_payout": 101.9,
+        "commission_amount": -44.1,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6931972789
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-18216414",
+        "gross_sales": 44.0,
+        "net_payout": 30.51,
+        "commission_amount": -11.0,
+        "marketing_fee": -1.49,
+        "service_fee": -1.0,
+        "margin_pct": 0.6934090909
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-80400860",
+        "gross_sales": 80.0,
+        "net_payout": 55.5,
+        "commission_amount": -24.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.69375
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-16565783",
+        "gross_sales": 80.0,
+        "net_payout": 55.5,
+        "commission_amount": -24.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.69375
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-69466865",
+        "gross_sales": 18.0,
+        "net_payout": 12.5,
+        "commission_amount": -4.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6944444444
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-14394314",
+        "gross_sales": 94.0,
+        "net_payout": 65.3,
+        "commission_amount": -28.2,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6946808511
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-78482913",
+        "gross_sales": 99.0,
+        "net_payout": 68.8,
+        "commission_amount": -29.7,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6949494949
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-38930504",
+        "gross_sales": 110.0,
+        "net_payout": 76.5,
+        "commission_amount": -33.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6954545455
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-81312397",
+        "gross_sales": 111.0,
+        "net_payout": 77.2,
+        "commission_amount": -33.3,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6954954955
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-82200719",
+        "gross_sales": 111.0,
+        "net_payout": 77.2,
+        "commission_amount": -33.3,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6954954955
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-12740347",
+        "gross_sales": 129.0,
+        "net_payout": 89.8,
+        "commission_amount": -38.7,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.696124031
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-45167011",
+        "gross_sales": 130.0,
+        "net_payout": 90.5,
+        "commission_amount": -39.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.6961538462
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-94760356",
+        "gross_sales": 37.0,
+        "net_payout": 25.76,
+        "commission_amount": -9.25,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.6962162162
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-86108470",
+        "gross_sales": 93.0,
+        "net_payout": 64.75,
+        "commission_amount": -23.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.6962365591
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-90539710",
+        "gross_sales": 65.0,
+        "net_payout": 45.26,
+        "commission_amount": -16.25,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.6963076923
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-15912756",
+        "gross_sales": 56.0,
+        "net_payout": 39.01,
+        "commission_amount": -14.0,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6966071429
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-88132657",
+        "gross_sales": 59.0,
+        "net_payout": 41.26,
+        "commission_amount": -14.75,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.6993220339
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-66057845",
+        "gross_sales": 32.0,
+        "net_payout": 22.4,
+        "commission_amount": -9.6,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-67657907",
+        "gross_sales": 27.0,
+        "net_payout": 18.9,
+        "commission_amount": -8.1,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-68101152",
+        "gross_sales": 84.0,
+        "net_payout": 58.8,
+        "commission_amount": -25.2,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-96212690",
+        "gross_sales": 47.0,
+        "net_payout": 32.9,
+        "commission_amount": -14.1,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-58823043",
+        "gross_sales": 85.0,
+        "net_payout": 59.5,
+        "commission_amount": -25.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-93008746",
+        "gross_sales": 75.0,
+        "net_payout": 52.5,
+        "commission_amount": -22.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-32539790",
+        "gross_sales": 148.0,
+        "net_payout": 103.6,
+        "commission_amount": -44.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-44108486",
+        "gross_sales": 20.0,
+        "net_payout": 14.0,
+        "commission_amount": -6.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-41735390",
+        "gross_sales": 79.0,
+        "net_payout": 55.3,
+        "commission_amount": -23.7,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-13218617",
+        "gross_sales": 118.0,
+        "net_payout": 82.6,
+        "commission_amount": -35.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-58921243",
+        "gross_sales": 75.0,
+        "net_payout": 52.5,
+        "commission_amount": -22.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-71666393",
+        "gross_sales": 93.0,
+        "net_payout": 65.1,
+        "commission_amount": -27.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-58554241",
+        "gross_sales": 139.0,
+        "net_payout": 97.3,
+        "commission_amount": -41.7,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-75483569",
+        "gross_sales": 62.0,
+        "net_payout": 43.4,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-87059003",
+        "gross_sales": 65.0,
+        "net_payout": 45.5,
+        "commission_amount": -19.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77885230",
+        "gross_sales": 59.0,
+        "net_payout": 41.3,
+        "commission_amount": -17.7,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-84485604",
+        "gross_sales": 45.0,
+        "net_payout": 31.5,
+        "commission_amount": -13.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-67755673",
+        "gross_sales": 103.0,
+        "net_payout": 72.1,
+        "commission_amount": -30.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-12420006",
+        "gross_sales": 90.0,
+        "net_payout": 63.0,
+        "commission_amount": -27.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-93183088",
+        "gross_sales": 89.0,
+        "net_payout": 62.3,
+        "commission_amount": -26.7,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-81335148",
+        "gross_sales": 94.0,
+        "net_payout": 65.8,
+        "commission_amount": -28.2,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-77688691",
+        "gross_sales": 18.0,
+        "net_payout": 12.6,
+        "commission_amount": -5.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-45827586",
+        "gross_sales": 62.0,
+        "net_payout": 43.4,
+        "commission_amount": -18.6,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-95508377",
+        "gross_sales": 93.0,
+        "net_payout": 65.1,
+        "commission_amount": -27.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-90921618",
+        "gross_sales": 94.0,
+        "net_payout": 65.8,
+        "commission_amount": -28.2,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-28091505",
+        "gross_sales": 79.0,
+        "net_payout": 55.3,
+        "commission_amount": -23.7,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42124448",
+        "gross_sales": 69.0,
+        "net_payout": 48.3,
+        "commission_amount": -20.7,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-36834068",
+        "gross_sales": 75.0,
+        "net_payout": 52.5,
+        "commission_amount": -22.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-64552156",
+        "gross_sales": 25.0,
+        "net_payout": 17.5,
+        "commission_amount": -7.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-97157198",
+        "gross_sales": 45.0,
+        "net_payout": 31.5,
+        "commission_amount": -13.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-80089577",
+        "gross_sales": 64.0,
+        "net_payout": 44.8,
+        "commission_amount": -19.2,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-70970707",
+        "gross_sales": 48.0,
+        "net_payout": 33.6,
+        "commission_amount": -14.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-95208944",
+        "gross_sales": 58.0,
+        "net_payout": 40.6,
+        "commission_amount": -17.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-30552534",
+        "gross_sales": 86.0,
+        "net_payout": 60.2,
+        "commission_amount": -25.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-73198134",
+        "gross_sales": 88.0,
+        "net_payout": 61.6,
+        "commission_amount": -26.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-84994387",
+        "gross_sales": 92.0,
+        "net_payout": 64.4,
+        "commission_amount": -27.6,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-49695558",
+        "gross_sales": 76.0,
+        "net_payout": 53.2,
+        "commission_amount": -22.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-25113111",
+        "gross_sales": 86.0,
+        "net_payout": 60.2,
+        "commission_amount": -25.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-58125786",
+        "gross_sales": 63.0,
+        "net_payout": 44.1,
+        "commission_amount": -18.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-30207596",
+        "gross_sales": 107.0,
+        "net_payout": 74.9,
+        "commission_amount": -32.1,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-36878004",
+        "gross_sales": 58.0,
+        "net_payout": 40.6,
+        "commission_amount": -17.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-83466766",
+        "gross_sales": 88.0,
+        "net_payout": 61.6,
+        "commission_amount": -26.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-41754682",
+        "gross_sales": 73.0,
+        "net_payout": 51.1,
+        "commission_amount": -21.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-13101665",
+        "gross_sales": 46.0,
+        "net_payout": 32.2,
+        "commission_amount": -13.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-69432877",
+        "gross_sales": 83.0,
+        "net_payout": 58.1,
+        "commission_amount": -24.9,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-42203207",
+        "gross_sales": 68.0,
+        "net_payout": 47.6,
+        "commission_amount": -20.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-33724447",
+        "gross_sales": 38.0,
+        "net_payout": 26.6,
+        "commission_amount": -11.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-39594944",
+        "gross_sales": 111.0,
+        "net_payout": 77.7,
+        "commission_amount": -33.3,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-51613626",
+        "gross_sales": 48.0,
+        "net_payout": 33.6,
+        "commission_amount": -14.4,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-12537052",
+        "gross_sales": 106.0,
+        "net_payout": 74.2,
+        "commission_amount": -31.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-19581487",
+        "gross_sales": 61.0,
+        "net_payout": 42.7,
+        "commission_amount": -18.3,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "Uber Eats",
+        "order_id": "UE-28133441",
+        "gross_sales": 116.0,
+        "net_payout": 81.2,
+        "commission_amount": -34.8,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-51195401",
+        "gross_sales": 50.0,
+        "net_payout": 35.01,
+        "commission_amount": -12.5,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7002
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-42632565",
+        "gross_sales": 61.0,
+        "net_payout": 42.76,
+        "commission_amount": -15.25,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.7009836066
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-26547460",
+        "gross_sales": 134.0,
+        "net_payout": 94.0,
+        "commission_amount": -33.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7014925373
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-30254720",
+        "gross_sales": 52.0,
+        "net_payout": 36.51,
+        "commission_amount": -13.0,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.7021153846
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-89727389",
+        "gross_sales": 32.0,
+        "net_payout": 22.5,
+        "commission_amount": -8.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.703125
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-40367245",
+        "gross_sales": 64.0,
+        "net_payout": 45.01,
+        "commission_amount": -16.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.70328125
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-28916865",
+        "gross_sales": 75.0,
+        "net_payout": 52.76,
+        "commission_amount": -18.75,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.7034666667
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-10011979",
+        "gross_sales": 125.0,
+        "net_payout": 88.26,
+        "commission_amount": -31.25,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.70608
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-68068111",
+        "gross_sales": 73.0,
+        "net_payout": 51.76,
+        "commission_amount": -18.25,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.7090410959
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-26325130",
+        "gross_sales": 61.0,
+        "net_payout": 43.26,
+        "commission_amount": -15.25,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7091803279
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-79566957",
+        "gross_sales": 87.0,
+        "net_payout": 61.76,
+        "commission_amount": -21.75,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.7098850575
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-29926163",
+        "gross_sales": 63.0,
+        "net_payout": 44.76,
+        "commission_amount": -15.75,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7104761905
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-96228745",
+        "gross_sales": 38.0,
+        "net_payout": 27.01,
+        "commission_amount": -9.5,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7107894737
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-92444660",
+        "gross_sales": 79.0,
+        "net_payout": 56.26,
+        "commission_amount": -19.75,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7121518987
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-56100071",
+        "gross_sales": 81.0,
+        "net_payout": 57.75,
+        "commission_amount": -20.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.712962963
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-11329605",
+        "gross_sales": 83.0,
+        "net_payout": 59.26,
+        "commission_amount": -20.75,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7139759036
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-90634218",
+        "gross_sales": 113.0,
+        "net_payout": 80.76,
+        "commission_amount": -28.25,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7146902655
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-87554869",
+        "gross_sales": 85.0,
+        "net_payout": 60.75,
+        "commission_amount": -21.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7147058824
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-27137945",
+        "gross_sales": 85.0,
+        "net_payout": 60.76,
+        "commission_amount": -21.25,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.7148235294
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-78717763",
+        "gross_sales": 86.0,
+        "net_payout": 61.5,
+        "commission_amount": -21.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7151162791
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-38634243",
+        "gross_sales": 43.0,
+        "net_payout": 30.75,
+        "commission_amount": -10.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7151162791
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-23980291",
+        "gross_sales": 60.0,
+        "net_payout": 43.01,
+        "commission_amount": -15.0,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7168333333
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-99655311",
+        "gross_sales": 61.0,
+        "net_payout": 43.76,
+        "commission_amount": -15.25,
+        "marketing_fee": -1.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7173770492
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-46263562",
+        "gross_sales": 92.0,
+        "net_payout": 66.01,
+        "commission_amount": -23.0,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7175
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-89645320",
+        "gross_sales": 32.0,
+        "net_payout": 23.0,
+        "commission_amount": -8.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.71875
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-13886073",
+        "gross_sales": 32.0,
+        "net_payout": 23.0,
+        "commission_amount": -8.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.71875
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-87658910",
+        "gross_sales": 103.0,
+        "net_payout": 74.26,
+        "commission_amount": -25.75,
+        "marketing_fee": -1.49,
+        "service_fee": -1.5,
+        "margin_pct": 0.7209708738
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-78537325",
+        "gross_sales": 121.0,
+        "net_payout": 87.26,
+        "commission_amount": -30.25,
+        "marketing_fee": -1.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.7211570248
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-22616724",
+        "gross_sales": 109.0,
+        "net_payout": 78.76,
+        "commission_amount": -27.25,
+        "marketing_fee": -1.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7225688073
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-37025750",
+        "gross_sales": 37.0,
+        "net_payout": 26.75,
+        "commission_amount": -9.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.722972973
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-74987035",
+        "gross_sales": 56.0,
+        "net_payout": 40.51,
+        "commission_amount": -14.0,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7233928571
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-32594861",
+        "gross_sales": 38.0,
+        "net_payout": 27.5,
+        "commission_amount": -9.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7236842105
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-28457790",
+        "gross_sales": 96.0,
+        "net_payout": 69.51,
+        "commission_amount": -24.0,
+        "marketing_fee": -0.99,
+        "service_fee": -1.5,
+        "margin_pct": 0.7240625
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-91229874",
+        "gross_sales": 59.0,
+        "net_payout": 42.76,
+        "commission_amount": -14.75,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7247457627
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-50456734",
+        "gross_sales": 79.0,
+        "net_payout": 57.26,
+        "commission_amount": -19.75,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.7248101266
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-34414336",
+        "gross_sales": 60.0,
+        "net_payout": 43.5,
+        "commission_amount": -15.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.725
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-60537925",
+        "gross_sales": 100.0,
+        "net_payout": 72.51,
+        "commission_amount": -25.0,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7251
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-35893710",
+        "gross_sales": 61.0,
+        "net_payout": 44.25,
+        "commission_amount": -15.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7254098361
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-77043770",
+        "gross_sales": 81.0,
+        "net_payout": 58.76,
+        "commission_amount": -20.25,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.7254320988
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-27790095",
+        "gross_sales": 61.0,
+        "net_payout": 44.26,
+        "commission_amount": -15.25,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7255737705
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-40702668",
+        "gross_sales": 102.0,
+        "net_payout": 74.01,
+        "commission_amount": -25.5,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7255882353
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-81697718",
+        "gross_sales": 41.0,
+        "net_payout": 29.75,
+        "commission_amount": -10.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7256097561
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-68636619",
+        "gross_sales": 41.0,
+        "net_payout": 29.75,
+        "commission_amount": -10.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7256097561
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-90278872",
+        "gross_sales": 63.0,
+        "net_payout": 45.75,
+        "commission_amount": -15.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7261904762
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-54818930",
+        "gross_sales": 63.0,
+        "net_payout": 45.75,
+        "commission_amount": -15.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7261904762
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-72554637",
+        "gross_sales": 64.0,
+        "net_payout": 46.5,
+        "commission_amount": -16.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7265625
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-94285070",
+        "gross_sales": 64.0,
+        "net_payout": 46.51,
+        "commission_amount": -16.0,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.72671875
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-75039514",
+        "gross_sales": 44.0,
+        "net_payout": 32.0,
+        "commission_amount": -11.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7272727273
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-95841058",
+        "gross_sales": 44.0,
+        "net_payout": 32.01,
+        "commission_amount": -11.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7275
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-16875458",
+        "gross_sales": 44.0,
+        "net_payout": 32.01,
+        "commission_amount": -11.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7275
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-17836393",
+        "gross_sales": 45.0,
+        "net_payout": 32.75,
+        "commission_amount": -11.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7277777778
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-13341136",
+        "gross_sales": 69.0,
+        "net_payout": 50.26,
+        "commission_amount": -17.25,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7284057971
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-30456936",
+        "gross_sales": 70.0,
+        "net_payout": 51.01,
+        "commission_amount": -17.5,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7287142857
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-82603472",
+        "gross_sales": 48.0,
+        "net_payout": 35.01,
+        "commission_amount": -12.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.729375
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-93307690",
+        "gross_sales": 99.0,
+        "net_payout": 72.26,
+        "commission_amount": -24.75,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.7298989899
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-46966386",
+        "gross_sales": 25.0,
+        "net_payout": 18.25,
+        "commission_amount": -6.25,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.73
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-57083481",
+        "gross_sales": 101.0,
+        "net_payout": 73.75,
+        "commission_amount": -25.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7301980198
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-94282661",
+        "gross_sales": 51.0,
+        "net_payout": 37.25,
+        "commission_amount": -12.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7303921569
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-88575446",
+        "gross_sales": 76.0,
+        "net_payout": 55.51,
+        "commission_amount": -19.0,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7303947368
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-31911550",
+        "gross_sales": 76.0,
+        "net_payout": 55.51,
+        "commission_amount": -19.0,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7303947368
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-87638747",
+        "gross_sales": 52.0,
+        "net_payout": 38.0,
+        "commission_amount": -13.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7307692308
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-64400654",
+        "gross_sales": 79.0,
+        "net_payout": 57.75,
+        "commission_amount": -19.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7310126582
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-63134202",
+        "gross_sales": 81.0,
+        "net_payout": 59.25,
+        "commission_amount": -20.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7314814815
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-15628280",
+        "gross_sales": 113.0,
+        "net_payout": 82.76,
+        "commission_amount": -28.25,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.7323893805
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-74630162",
+        "gross_sales": 57.0,
+        "net_payout": 41.75,
+        "commission_amount": -14.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7324561404
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-57923480",
+        "gross_sales": 87.0,
+        "net_payout": 63.75,
+        "commission_amount": -21.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7327586207
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-53554917",
+        "gross_sales": 116.0,
+        "net_payout": 85.01,
+        "commission_amount": -29.0,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7328448276
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-94597121",
+        "gross_sales": 116.0,
+        "net_payout": 85.01,
+        "commission_amount": -29.0,
+        "marketing_fee": -1.49,
+        "service_fee": -0.5,
+        "margin_pct": 0.7328448276
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-53299335",
+        "gross_sales": 87.0,
+        "net_payout": 63.76,
+        "commission_amount": -21.75,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7328735632
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-16953083",
+        "gross_sales": 88.0,
+        "net_payout": 64.5,
+        "commission_amount": -22.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7329545455
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-88039043",
+        "gross_sales": 89.0,
+        "net_payout": 65.25,
+        "commission_amount": -22.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7331460674
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-53260440",
+        "gross_sales": 150.0,
+        "net_payout": 110.01,
+        "commission_amount": -37.5,
+        "marketing_fee": -1.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7334
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-17683407",
+        "gross_sales": 91.0,
+        "net_payout": 66.76,
+        "commission_amount": -22.75,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7336263736
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-65848489",
+        "gross_sales": 95.0,
+        "net_payout": 69.76,
+        "commission_amount": -23.75,
+        "marketing_fee": -1.49,
+        "service_fee": 0.0,
+        "margin_pct": 0.7343157895
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-53417914",
+        "gross_sales": 64.0,
+        "net_payout": 47.0,
+        "commission_amount": -16.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.734375
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-67269556",
+        "gross_sales": 32.0,
+        "net_payout": 23.5,
+        "commission_amount": -8.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.734375
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-13255556",
+        "gross_sales": 130.0,
+        "net_payout": 95.51,
+        "commission_amount": -32.5,
+        "marketing_fee": -0.99,
+        "service_fee": -1.0,
+        "margin_pct": 0.7346923077
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-24985165",
+        "gross_sales": 66.0,
+        "net_payout": 48.5,
+        "commission_amount": -16.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7348484848
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-13836739",
+        "gross_sales": 104.0,
+        "net_payout": 76.5,
+        "commission_amount": -26.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7355769231
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-58195503",
+        "gross_sales": 70.0,
+        "net_payout": 51.5,
+        "commission_amount": -17.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.7357142857
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-35533105",
+        "gross_sales": 107.0,
+        "net_payout": 78.75,
+        "commission_amount": -26.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7359813084
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-34869448",
+        "gross_sales": 108.0,
+        "net_payout": 79.5,
+        "commission_amount": -27.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7361111111
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-66189058",
+        "gross_sales": 38.0,
+        "net_payout": 28.0,
+        "commission_amount": -9.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7368421053
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-59322080",
+        "gross_sales": 114.0,
+        "net_payout": 84.01,
+        "commission_amount": -28.5,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7369298246
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-91244499",
+        "gross_sales": 76.0,
+        "net_payout": 56.01,
+        "commission_amount": -19.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7369736842
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-47074359",
+        "gross_sales": 116.0,
+        "net_payout": 85.5,
+        "commission_amount": -29.0,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7370689655
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-18716519",
+        "gross_sales": 81.0,
+        "net_payout": 59.76,
+        "commission_amount": -20.25,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7377777778
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-69539770",
+        "gross_sales": 123.0,
+        "net_payout": 90.75,
+        "commission_amount": -30.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.737804878
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-68307529",
+        "gross_sales": 43.0,
+        "net_payout": 31.75,
+        "commission_amount": -10.75,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.738372093
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-64268643",
+        "gross_sales": 43.0,
+        "net_payout": 31.75,
+        "commission_amount": -10.75,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.738372093
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-36875510",
+        "gross_sales": 131.0,
+        "net_payout": 96.75,
+        "commission_amount": -32.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.5,
+        "margin_pct": 0.7385496183
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-44877509",
+        "gross_sales": 89.0,
+        "net_payout": 65.75,
+        "commission_amount": -22.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7387640449
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-69145384",
+        "gross_sales": 136.0,
+        "net_payout": 100.51,
+        "commission_amount": -34.0,
+        "marketing_fee": -0.99,
+        "service_fee": -0.5,
+        "margin_pct": 0.7390441176
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-31066087",
+        "gross_sales": 94.0,
+        "net_payout": 69.5,
+        "commission_amount": -23.5,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7393617021
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-22290950",
+        "gross_sales": 109.0,
+        "net_payout": 80.75,
+        "commission_amount": -27.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7408256881
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-37033573",
+        "gross_sales": 110.0,
+        "net_payout": 81.51,
+        "commission_amount": -27.5,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.741
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-90788330",
+        "gross_sales": 113.0,
+        "net_payout": 83.75,
+        "commission_amount": -28.25,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7411504425
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-65035701",
+        "gross_sales": 114.0,
+        "net_payout": 84.51,
+        "commission_amount": -28.5,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7413157895
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-33474332",
+        "gross_sales": 123.0,
+        "net_payout": 91.25,
+        "commission_amount": -30.75,
+        "marketing_fee": 0.0,
+        "service_fee": -1.0,
+        "margin_pct": 0.7418699187
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-49417629",
+        "gross_sales": 62.0,
+        "net_payout": 46.0,
+        "commission_amount": -15.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7419354839
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-22070599",
+        "gross_sales": 62.0,
+        "net_payout": 46.0,
+        "commission_amount": -15.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7419354839
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-64698213",
+        "gross_sales": 148.0,
+        "net_payout": 110.01,
+        "commission_amount": -37.0,
+        "marketing_fee": -0.99,
+        "service_fee": 0.0,
+        "margin_pct": 0.7433108108
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-94681989",
+        "gross_sales": 75.0,
+        "net_payout": 55.75,
+        "commission_amount": -18.75,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7433333333
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-85953325",
+        "gross_sales": 75.0,
+        "net_payout": 55.75,
+        "commission_amount": -18.75,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7433333333
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-72864226",
+        "gross_sales": 76.0,
+        "net_payout": 56.5,
+        "commission_amount": -19.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7434210526
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-73057719",
+        "gross_sales": 86.0,
+        "net_payout": 64.0,
+        "commission_amount": -21.5,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7441860465
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-87110706",
+        "gross_sales": 89.0,
+        "net_payout": 66.25,
+        "commission_amount": -22.25,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.7443820225
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-62806960",
+        "gross_sales": 128.0,
+        "net_payout": 95.5,
+        "commission_amount": -32.0,
+        "marketing_fee": 0.0,
+        "service_fee": -0.5,
+        "margin_pct": 0.74609375
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-66400328",
+        "gross_sales": 157.0,
+        "net_payout": 117.75,
+        "commission_amount": -39.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-49555245",
+        "gross_sales": 67.0,
+        "net_payout": 50.25,
+        "commission_amount": -16.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-21589281",
+        "gross_sales": 39.0,
+        "net_payout": 29.25,
+        "commission_amount": -9.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-16750968",
+        "gross_sales": 61.0,
+        "net_payout": 45.75,
+        "commission_amount": -15.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-93091552",
+        "gross_sales": 38.0,
+        "net_payout": 28.5,
+        "commission_amount": -9.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-78730368",
+        "gross_sales": 127.0,
+        "net_payout": 95.25,
+        "commission_amount": -31.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-29494691",
+        "gross_sales": 125.0,
+        "net_payout": 93.75,
+        "commission_amount": -31.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-35467094",
+        "gross_sales": 32.0,
+        "net_payout": 24.0,
+        "commission_amount": -8.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-18734787",
+        "gross_sales": 38.0,
+        "net_payout": 28.5,
+        "commission_amount": -9.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-54288736",
+        "gross_sales": 37.0,
+        "net_payout": 27.75,
+        "commission_amount": -9.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-43239753",
+        "gross_sales": 64.0,
+        "net_payout": 48.0,
+        "commission_amount": -16.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-54635760",
+        "gross_sales": 66.0,
+        "net_payout": 49.5,
+        "commission_amount": -16.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-22123590",
+        "gross_sales": 162.0,
+        "net_payout": 121.5,
+        "commission_amount": -40.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-64368388",
+        "gross_sales": 19.0,
+        "net_payout": 14.25,
+        "commission_amount": -4.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-33444571",
+        "gross_sales": 89.0,
+        "net_payout": 66.75,
+        "commission_amount": -22.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-55623813",
+        "gross_sales": 89.0,
+        "net_payout": 66.75,
+        "commission_amount": -22.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-14541654",
+        "gross_sales": 66.0,
+        "net_payout": 49.5,
+        "commission_amount": -16.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-55530772",
+        "gross_sales": 37.0,
+        "net_payout": 27.75,
+        "commission_amount": -9.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-58606803",
+        "gross_sales": 19.0,
+        "net_payout": 14.25,
+        "commission_amount": -4.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-28368669",
+        "gross_sales": 79.0,
+        "net_payout": 59.25,
+        "commission_amount": -19.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-28081367",
+        "gross_sales": 38.0,
+        "net_payout": 28.5,
+        "commission_amount": -9.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-67246720",
+        "gross_sales": 88.0,
+        "net_payout": 66.0,
+        "commission_amount": -22.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-30770551",
+        "gross_sales": 69.0,
+        "net_payout": 51.75,
+        "commission_amount": -17.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-46807841",
+        "gross_sales": 119.0,
+        "net_payout": 89.25,
+        "commission_amount": -29.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-19691286",
+        "gross_sales": 37.0,
+        "net_payout": 27.75,
+        "commission_amount": -9.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-93947159",
+        "gross_sales": 44.0,
+        "net_payout": 33.0,
+        "commission_amount": -11.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-80833116",
+        "gross_sales": 45.0,
+        "net_payout": 33.75,
+        "commission_amount": -11.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-77664769",
+        "gross_sales": 59.0,
+        "net_payout": 44.25,
+        "commission_amount": -14.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-75922840",
+        "gross_sales": 76.0,
+        "net_payout": 57.0,
+        "commission_amount": -19.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-31737900",
+        "gross_sales": 99.0,
+        "net_payout": 74.25,
+        "commission_amount": -24.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-18439611",
+        "gross_sales": 75.0,
+        "net_payout": 56.25,
+        "commission_amount": -18.75,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-95335864",
+        "gross_sales": 44.0,
+        "net_payout": 33.0,
+        "commission_amount": -11.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-96602039",
+        "gross_sales": 93.0,
+        "net_payout": 69.75,
+        "commission_amount": -23.25,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-82284037",
+        "gross_sales": 32.0,
+        "net_payout": 24.0,
+        "commission_amount": -8.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-45554571",
+        "gross_sales": 80.0,
+        "net_payout": 60.0,
+        "commission_amount": -20.0,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      },
+      {
+        "platform": "DoorDash",
+        "order_id": "DD-30729648",
+        "gross_sales": 66.0,
+        "net_payout": 49.5,
+        "commission_amount": -16.5,
+        "marketing_fee": 0.0,
+        "service_fee": 0.0,
+        "margin_pct": 0.75
+      }
+    ],
+    "ratings": {}
+  }
+}

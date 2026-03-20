@@ -1,0 +1,296 @@
+{
+  "methods": [
+    {
+      "method": "Visa",
+      "transaction_count": 1173,
+      "total_amount": 184552.09,
+      "total_tips": 28157.62,
+      "pct_of_revenue": 0.4099502814019692,
+      "avg_transaction": 157.33341005967605,
+      "avg_tip_pct": 0.15257275059848957
+    },
+    {
+      "method": "Mastercard",
+      "transaction_count": 745,
+      "total_amount": 119372.83,
+      "total_tips": 17754.67,
+      "pct_of_revenue": 0.26516592280395973,
+      "avg_transaction": 160.2319865771812,
+      "avg_tip_pct": 0.1487329235639299
+    },
+    {
+      "method": "Interac Debit",
+      "transaction_count": 402,
+      "total_amount": 62480.97,
+      "total_tips": 9455.47,
+      "pct_of_revenue": 0.13879057795426752,
+      "avg_transaction": 155.42529850746268,
+      "avg_tip_pct": 0.15133359805393545
+    },
+    {
+      "method": "Cash",
+      "transaction_count": 272,
+      "total_amount": 42976.6,
+      "total_tips": 6647.66,
+      "pct_of_revenue": 0.09546502162993585,
+      "avg_transaction": 158.00220588235294,
+      "avg_tip_pct": 0.15468091938403689
+    },
+    {
+      "method": "Gift Card",
+      "transaction_count": 175,
+      "total_amount": 25848.45,
+      "total_tips": 3908.23,
+      "pct_of_revenue": 0.05741782361448592,
+      "avg_transaction": 147.70542857142857,
+      "avg_tip_pct": 0.1511978474531355
+    },
+    {
+      "method": "Amex",
+      "transaction_count": 86,
+      "total_amount": 14950.7,
+      "total_tips": 2650.62,
+      "pct_of_revenue": 0.033210372595381725,
+      "avg_transaction": 173.84534883720931,
+      "avg_tip_pct": 0.17729069541894357
+    }
+  ],
+  "overall_tip_rate": 0.15232578121133505,
+  "total_tips": 68574.27,
+  "discount_rate_pct": 0.0075,
+  "total_discounts": 3411.86,
+  "extended": {
+    "method_by_dow": [
+      {
+        "Amex": 9.0,
+        "Cash": 30.0,
+        "Gift Card": 12.0,
+        "Interac Debit": 42.0,
+        "Mastercard": 74.0,
+        "Visa": 113.0
+      },
+      {
+        "Amex": 9.0,
+        "Cash": 33.0,
+        "Gift Card": 13.0,
+        "Interac Debit": 47.0,
+        "Mastercard": 69.0,
+        "Visa": 128.0
+      },
+      {
+        "Amex": 12.0,
+        "Cash": 30.0,
+        "Gift Card": 25.0,
+        "Interac Debit": 45.0,
+        "Mastercard": 86.0,
+        "Visa": 129.0
+      },
+      {
+        "Amex": 13.0,
+        "Cash": 36.0,
+        "Gift Card": 27.0,
+        "Interac Debit": 60.0,
+        "Mastercard": 119.0,
+        "Visa": 176.0
+      },
+      {
+        "Amex": 8.0,
+        "Cash": 45.0,
+        "Gift Card": 28.0,
+        "Interac Debit": 80.0,
+        "Mastercard": 125.0,
+        "Visa": 219.0
+      },
+      {
+        "Amex": 20.0,
+        "Cash": 41.0,
+        "Gift Card": 33.0,
+        "Interac Debit": 71.0,
+        "Mastercard": 154.0,
+        "Visa": 228.0
+      },
+      {
+        "Amex": 15.0,
+        "Cash": 57.0,
+        "Gift Card": 37.0,
+        "Interac Debit": 57.0,
+        "Mastercard": 118.0,
+        "Visa": 180.0
+      }
+    ],
+    "method_by_order": [
+      {
+        "order_type": "Delivery",
+        "payment_method": "Amex",
+        "txn_count": 5,
+        "net_sales": 992.5
+      },
+      {
+        "order_type": "Delivery",
+        "payment_method": "Cash",
+        "txn_count": 29,
+        "net_sales": 4992.5
+      },
+      {
+        "order_type": "Delivery",
+        "payment_method": "Gift Card",
+        "txn_count": 23,
+        "net_sales": 3424.5
+      },
+      {
+        "order_type": "Delivery",
+        "payment_method": "Interac Debit",
+        "txn_count": 56,
+        "net_sales": 8192.85
+      },
+      {
+        "order_type": "Delivery",
+        "payment_method": "Mastercard",
+        "txn_count": 109,
+        "net_sales": 17184.02
+      },
+      {
+        "order_type": "Delivery",
+        "payment_method": "Visa",
+        "txn_count": 146,
+        "net_sales": 24005.11
+      },
+      {
+        "order_type": "Dine-In",
+        "payment_method": "Amex",
+        "txn_count": 76,
+        "net_sales": 12985.2
+      },
+      {
+        "order_type": "Dine-In",
+        "payment_method": "Cash",
+        "txn_count": 211,
+        "net_sales": 32361.0
+      },
+      {
+        "order_type": "Dine-In",
+        "payment_method": "Gift Card",
+        "txn_count": 126,
+        "net_sales": 18477.95
+      },
+      {
+        "order_type": "Dine-In",
+        "payment_method": "Interac Debit",
+        "txn_count": 290,
+        "net_sales": 45377.0
+      },
+      {
+        "order_type": "Dine-In",
+        "payment_method": "Mastercard",
+        "txn_count": 531,
+        "net_sales": 85953.13
+      },
+      {
+        "order_type": "Dine-In",
+        "payment_method": "Visa",
+        "txn_count": 859,
+        "net_sales": 134701.28
+      },
+      {
+        "order_type": "Takeout",
+        "payment_method": "Amex",
+        "txn_count": 5,
+        "net_sales": 973.0
+      },
+      {
+        "order_type": "Takeout",
+        "payment_method": "Cash",
+        "txn_count": 32,
+        "net_sales": 5623.1
+      },
+      {
+        "order_type": "Takeout",
+        "payment_method": "Gift Card",
+        "txn_count": 26,
+        "net_sales": 3946.0
+      },
+      {
+        "order_type": "Takeout",
+        "payment_method": "Interac Debit",
+        "txn_count": 56,
+        "net_sales": 8911.12
+      },
+      {
+        "order_type": "Takeout",
+        "payment_method": "Mastercard",
+        "txn_count": 105,
+        "net_sales": 16235.68
+      },
+      {
+        "order_type": "Takeout",
+        "payment_method": "Visa",
+        "txn_count": 168,
+        "net_sales": 25845.7
+      }
+    ],
+    "tip_by_server": [
+      {
+        "team_member": "Leo C.",
+        "total_tips": 12735.67,
+        "net_sales": 84693.15,
+        "txn_count": 519,
+        "tip_pct": 0.1503742629
+      },
+      {
+        "team_member": "James L.",
+        "total_tips": 12522.96,
+        "net_sales": 80995.6,
+        "txn_count": 515,
+        "tip_pct": 0.1546128432
+      },
+      {
+        "team_member": "Marcus T.",
+        "total_tips": 11385.3,
+        "net_sales": 73562.6,
+        "txn_count": 473,
+        "tip_pct": 0.1547702229
+      },
+      {
+        "team_member": "Priya K.",
+        "total_tips": 10827.92,
+        "net_sales": 71209.28,
+        "txn_count": 445,
+        "tip_pct": 0.1520577093
+      },
+      {
+        "team_member": "Sarah M.",
+        "total_tips": 10824.22,
+        "net_sales": 72578.86,
+        "txn_count": 458,
+        "tip_pct": 0.1491373659
+      },
+      {
+        "team_member": "Emma W.",
+        "total_tips": 10278.2,
+        "net_sales": 67142.15,
+        "txn_count": 443,
+        "tip_pct": 0.1530811867
+      }
+    ],
+    "tip_by_order_type": [
+      {
+        "order_type": "Delivery",
+        "avg_tip": 0.0,
+        "total_tips": 0.0,
+        "tip_rate": 0.0
+      },
+      {
+        "order_type": "Dine-In",
+        "avg_tip": 30.6175394171,
+        "total_tips": 64082.51,
+        "tip_rate": 0.1942744576
+      },
+      {
+        "order_type": "Takeout",
+        "avg_tip": 11.4585714286,
+        "total_tips": 4491.76,
+        "tip_rate": 0.0729956805
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "total_net_revenue": 450181.64,
+  "total_gross_revenue": 453593.5,
+  "avg_daily_revenue": 14521.99,
+  "total_transactions": 2853,
+  "avg_check": 157.79,
+  "total_covers": 4813,
+  "revenue_per_cover": 93.52,
+  "total_tips": 68574.27,
+  "avg_tip_pct": 0.1523,
+  "total_discounts": 3411.86,
+  "discount_rate_pct": 0.0075,
+  "labor_pct": 0.152,
+  "splh": 138.0,
+  "total_labor_cost": 68408.89,
+  "delivery_net_margin": 0.6934,
+  "noshow_rate": 0.0813,
+  "menu_stars_count": 6,
+  "menu_dogs_count": 6,
+  "extended": {}
+}

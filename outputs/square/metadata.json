@@ -1,0 +1,21 @@
+{
+  "pos_system": "square",
+  "restaurant_name": "Coastal Table",
+  "location": "",
+  "report_period": "",
+  "period_start": "2026-03-01 00:00:00",
+  "period_end": "2026-03-31 00:00:00",
+  "operating_days": 92.0,
+  "total_seats": null,
+  "generated_at": "2026-03-18T20:26:35.238877",
+  "data_quality": [],
+  "table_row_counts": {
+    "transactions": 2868,
+    "items": 19323,
+    "timecards": 416,
+    "delivery": 474,
+    "reservations": 1119,
+    "customers": 150
+  },
+  "extended": {}
+}
