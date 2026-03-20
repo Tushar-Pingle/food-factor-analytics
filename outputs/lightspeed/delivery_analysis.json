@@ -1,0 +1,38 @@
+{
+  "total_orders": 504,
+  "completed_orders": 483,
+  "canceled_orders": 21,
+  "cancel_rate": 0.0417,
+  "gross_revenue": 34375.0,
+  "net_payout": 27416.77,
+  "effective_margin_pct": 0.20242123636363635,
+  "avg_order_value": 71.17,
+  "platform_comparison": [
+    {
+      "platform": "DoorDash",
+      "order_count": 189,
+      "gross_revenue": 13450.0,
+      "net_payout": 11151.11,
+      "total_fees": 3747.89,
+      "effective_margin_pct": 0.17092118959107802,
+      "avg_order_value": 71.16402116402116,
+      "avg_prep_time": 23.435449735449737,
+      "avg_delivery_time": 34.3058201058201,
+      "avg_rating": 4.529411764705882
+    },
+    {
+      "platform": "Uber Eats",
+      "order_count": 294,
+      "gross_revenue": 20925.0,
+      "net_payout": 16265.66,
+      "total_fees": 6916.34,
+      "effective_margin_pct": 0.22266857825567504,
+      "avg_order_value": 71.1734693877551,
+      "avg_prep_time": 23.391156462585034,
+      "avg_delivery_time": 34.817687074829934,
+      "avg_rating": 4.48051948051948
+    }
+  ],
+  "daily_trend": [],
+  "extended": {}
+}

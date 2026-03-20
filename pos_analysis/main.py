@@ -146,9 +146,9 @@ def run_touchbistro(data_dir: Path, output_dir: Path) -> None:
 
 def run_lightspeed(data_dir: Path, output_dir: Path) -> None:
     """Run the Lightspeed POS analysis pipeline with standardization."""
-    from pos_analysis.lightspeed.ingest import load_all_csvs
+    from pos_analysis.lightspeed.ingest import load_all
     from pos_analysis.lightspeed.analysis import (
-        run_revenue_analysis,
+        run_sales_analysis,
         run_payment_analysis,
         run_delivery_analysis,
         run_reservation_analysis,
@@ -161,36 +161,54 @@ def run_lightspeed(data_dir: Path, output_dir: Path) -> None:
     logger.info("Data directory: %s", data_dir)
 
     # Step 1: Ingest
-    datasets = load_all_csvs(str(data_dir))
+    datasets = load_all(data_dir)
     logger.info("Loaded Lightspeed datasets")
+
+    # Unpack DataFrames for analysis functions
+    receipts = datasets["receipts"]
+    items = datasets["receipt_items"]
+    products = datasets["products"]
+    payments = datasets["payments"]
+    labor = datasets["labor_shifts"]
+    delivery = datasets.get("delivery")
+    reservations = datasets.get("reservations")
 
     # Step 2: Analyze
     results = {}
-    results["sales"] = run_revenue_analysis(datasets)
-    logger.info("Revenue analysis complete")
+    results["sales"] = run_sales_analysis(receipts, items, products)
+    logger.info("Sales analysis complete")
 
-    results["payments"] = run_payment_analysis(datasets)
+    results["payments"] = run_payment_analysis(payments)
     logger.info("Payment analysis complete")
 
-    results["labor"] = run_labor_analysis(datasets)
+    total_net_revenue = receipts["Net_Total"].sum()
+    results["labor"] = run_labor_analysis(labor, receipts, total_net_revenue)
     logger.info("Labor analysis complete")
 
     try:
-        results["delivery"] = run_delivery_analysis(datasets)
-        logger.info("Delivery analysis complete")
+        if delivery is not None and not delivery.empty:
+            results["delivery"] = run_delivery_analysis(delivery)
+            logger.info("Delivery analysis complete")
+        else:
+            results["delivery"] = {}
+            logger.info("No delivery data — skipped")
     except Exception as e:
         logger.warning("Delivery analysis skipped: %s", e)
         results["delivery"] = {}
 
     try:
-        results["reservations"] = run_reservation_analysis(datasets)
-        logger.info("Reservation analysis complete")
+        if reservations is not None and not reservations.empty:
+            results["reservations"] = run_reservation_analysis(reservations, receipts)
+            logger.info("Reservation analysis complete")
+        else:
+            results["reservations"] = {}
+            logger.info("No reservation data — skipped")
     except Exception as e:
         logger.warning("Reservation analysis skipped: %s", e)
         results["reservations"] = {}
 
     try:
-        results["ops_flags"] = run_operational_flags(datasets)
+        results["ops_flags"] = run_operational_flags(receipts, items, products, payments)
         logger.info("Operational flags complete")
     except Exception as e:
         logger.warning("Operational flags skipped: %s", e)

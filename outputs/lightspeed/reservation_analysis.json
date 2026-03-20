@@ -1,0 +1,51 @@
+{
+  "total_reservations": 1361,
+  "completed": 1091,
+  "no_shows": 107,
+  "noshow_rate": 0.000786,
+  "cancel_rate": 0.001198,
+  "avg_party_size": 3.2,
+  "total_covers": 3509,
+  "avg_turn_time": 90.3,
+  "avg_wait_time": 2.6,
+  "revpash": 19.76,
+  "by_source": [
+    {
+      "source": "OpenTable",
+      "count": 551,
+      "noshow_rate": 0.0007078039927404718,
+      "avg_party_size": 3.192377495462795,
+      "pct_of_total": 0.4048493754592212
+    },
+    {
+      "source": "Resy",
+      "count": 327,
+      "noshow_rate": 0.0008868501529051988,
+      "avg_party_size": 3.256880733944954,
+      "pct_of_total": 0.2402645113886848
+    },
+    {
+      "source": "Walk-In",
+      "count": 224,
+      "noshow_rate": 0.0007142857142857143,
+      "avg_party_size": 3.263392857142857,
+      "pct_of_total": 0.16458486407053638
+    },
+    {
+      "source": "Phone",
+      "count": 205,
+      "noshow_rate": 0.0007317073170731707,
+      "avg_party_size": 3.151219512195122,
+      "pct_of_total": 0.15062454077883908
+    },
+    {
+      "source": "Website",
+      "count": 54,
+      "noshow_rate": 0.0014814814814814814,
+      "avg_party_size": 3.3333333333333335,
+      "pct_of_total": 0.03967670830271859
+    }
+  ],
+  "noshow_by_day": [],
+  "extended": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pos_system": "lightspeed",
+  "restaurant_name": "Coastal Table",
+  "location": "Vancouver, BC",
+  "report_period": "March 2026",
+  "period_start": "2026-01-01",
+  "period_end": "2026-02-28",
+  "operating_days": 30,
+  "total_seats": null,
+  "generated_at": "2026-03-19T18:49:22.719928",
+  "data_quality": [],
+  "table_row_counts": {
+    "transactions": 2780
+  },
+  "extended": {}
+}

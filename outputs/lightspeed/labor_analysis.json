@@ -1,0 +1,228 @@
+{
+  "total_labor_cost": 63543.24,
+  "total_paid_hours": 2995.6,
+  "labor_pct": 0.0012870000000000002,
+  "splh": 164.78,
+  "headcount": 0,
+  "total_overtime_hours": 32.0,
+  "overtime_premium_cost": null,
+  "benchmark_labor_pct": null,
+  "benchmark_splh": null,
+  "daily_labor": [
+    {
+      "date": "Monday",
+      "labor_cost": 6708.03,
+      "labor_hours": 353.45,
+      "staff_count": null,
+      "net_revenue": 11524.78,
+      "labor_pct": 0.00116410551871706,
+      "splh": 163.03267788937617,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "Tuesday",
+      "labor_cost": 7507.77,
+      "labor_hours": 336.05,
+      "staff_count": null,
+      "net_revenue": 12754.7875,
+      "labor_pct": 0.0014715592086500854,
+      "splh": 151.8201160541586,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "Wednesday",
+      "labor_cost": 7575.03,
+      "labor_hours": 338.47,
+      "staff_count": null,
+      "net_revenue": 13984.7625,
+      "labor_pct": 0.0013541577842312302,
+      "splh": 165.27033415073714,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "Thursday",
+      "labor_cost": 9014.67,
+      "labor_hours": 416.5,
+      "staff_count": null,
+      "net_revenue": 18363.1625,
+      "labor_pct": 0.0012272763474156481,
+      "splh": 176.35690276110444,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "Friday",
+      "labor_cost": 10341.09,
+      "labor_hours": 493.86,
+      "staff_count": null,
+      "net_revenue": 19904.9375,
+      "labor_pct": 0.0012988096546397094,
+      "splh": 161.21927266836755,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "Saturday",
+      "labor_cost": 10552.03,
+      "labor_hours": 504.15999999999997,
+      "staff_count": null,
+      "net_revenue": 22969.2,
+      "labor_pct": 0.0011484977709280255,
+      "splh": 182.23738495715648,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "Sunday",
+      "labor_cost": 11844.62,
+      "labor_hours": 553.1,
+      "staff_count": null,
+      "net_revenue": 15321.73,
+      "labor_pct": 0.0015461204446234205,
+      "splh": 138.50777436268305,
+      "day_of_week": "Sunday"
+    }
+  ],
+  "foh_boh_split": [
+    {
+      "group": "BOH",
+      "labor_cost": 37242.54,
+      "paid_hours": 1537.86,
+      "headcount": 9,
+      "pct_of_total": 0.005860975927573097
+    },
+    {
+      "group": "FOH",
+      "labor_cost": 26300.7,
+      "paid_hours": 1457.73,
+      "headcount": 12,
+      "pct_of_total": 0.004139024072426902
+    }
+  ],
+  "by_role": [
+    {
+      "role": "Server",
+      "group": "FOH",
+      "labor_cost": 15704.9,
+      "paid_hours": 874.12,
+      "headcount": 6,
+      "avg_hourly_rate": 17.966666666666665,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Line Cook",
+      "group": "BOH",
+      "labor_cost": 15502.17,
+      "paid_hours": 741.68,
+      "headcount": 4,
+      "avg_hourly_rate": 20.875,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Head Chef",
+      "group": "BOH",
+      "labor_cost": 13219.88,
+      "paid_hours": 325.88,
+      "headcount": 1,
+      "avg_hourly_rate": 34.0,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Prep Cook",
+      "group": "BOH",
+      "labor_cost": 6503.66,
+      "paid_hours": 354.39,
+      "headcount": 2,
+      "avg_hourly_rate": 18.319148936170212,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Host",
+      "group": "FOH",
+      "labor_cost": 4806.58,
+      "paid_hours": 276.24,
+      "headcount": 2,
+      "avg_hourly_rate": 17.4,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Bartender",
+      "group": "FOH",
+      "labor_cost": 4501.97,
+      "paid_hours": 233.39,
+      "headcount": 2,
+      "avg_hourly_rate": 19.25,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Dishwasher",
+      "group": "BOH",
+      "labor_cost": 2016.8300000000002,
+      "paid_hours": 115.91,
+      "headcount": 2,
+      "avg_hourly_rate": 17.4,
+      "pct_of_total": 0.0
+    },
+    {
+      "role": "Busser",
+      "group": "FOH",
+      "labor_cost": 1287.25,
+      "paid_hours": 73.98,
+      "headcount": 2,
+      "avg_hourly_rate": 17.4,
+      "pct_of_total": 0.0
+    }
+  ],
+  "overtime_detail": [
+    {
+      "employee_name": "Chef Tanaka",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Ben K.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Jade L.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Marcus B.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Yuki H.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Sam T.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Rosa V.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    },
+    {
+      "employee_name": "Carlos G.",
+      "overtime_hours": 0.0,
+      "overtime_shifts": 0,
+      "overtime_cost": 0.0
+    }
+  ],
+  "splh_trend": [],
+  "extended": {
+    "foh_pct": null,
+    "boh_pct": null
+  }
+}

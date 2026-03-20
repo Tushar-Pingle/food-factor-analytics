@@ -1,0 +1,322 @@
+{
+  "flags": [
+    {
+      "severity": "WARNING",
+      "category": "High-Value Voids",
+      "description": "7 high-value voided transactions totaling $2,045.",
+      "metric_value": null,
+      "threshold": null
+    }
+  ],
+  "void_summary": {
+    "void_count": 45,
+    "void_rate_pct": 0.0159,
+    "void_revenue_lost": 7468.7,
+    "alert_level": "NORMAL"
+  },
+  "refund_summary": {
+    "refund_count": 0,
+    "refund_amount": 0.0,
+    "refund_rate_pct": 0.0
+  },
+  "extended": {
+    "discount_analysis": {
+      "total_items_sold": 21755,
+      "discounted_count": 575,
+      "discount_rate": 0.0264,
+      "total_discount_value": 4606.55,
+      "by_server": [
+        {
+          "Created_By": "Dylan R.",
+          "discount_count": 96,
+          "total_discount_value": -925.9
+        },
+        {
+          "Created_By": "Sarah M.",
+          "discount_count": 99,
+          "total_discount_value": -836.45
+        },
+        {
+          "Created_By": "James L.",
+          "discount_count": 91,
+          "total_discount_value": -755.7
+        },
+        {
+          "Created_By": "Olivia C.",
+          "discount_count": 94,
+          "total_discount_value": -718.35
+        },
+        {
+          "Created_By": "Priya S.",
+          "discount_count": 104,
+          "total_discount_value": -710.85
+        },
+        {
+          "Created_By": "Mika T.",
+          "discount_count": 91,
+          "total_discount_value": -659.3
+        }
+      ],
+      "by_item": [
+        {
+          "Item_Name": "Seafood Linguine",
+          "discount_count": 18,
+          "total_discount_value": -314.6,
+          "avg_discount": -17.477777777777778
+        },
+        {
+          "Item_Name": "Wagyu Striploin 8oz",
+          "discount_count": 12,
+          "total_discount_value": -286.90000000000003,
+          "avg_discount": -23.908333333333335
+        },
+        {
+          "Item_Name": "Lamb Rack",
+          "discount_count": 15,
+          "total_discount_value": -281.0,
+          "avg_discount": -18.733333333333334
+        },
+        {
+          "Item_Name": "Tuna Tartare",
+          "discount_count": 29,
+          "total_discount_value": -277.2,
+          "avg_discount": -9.558620689655172
+        },
+        {
+          "Item_Name": "Miso-Braised Short Rib",
+          "discount_count": 12,
+          "total_discount_value": -247.0,
+          "avg_discount": -20.583333333333332
+        },
+        {
+          "Item_Name": "Duck Breast & Soba",
+          "discount_count": 18,
+          "total_discount_value": -239.5,
+          "avg_discount": -13.305555555555555
+        },
+        {
+          "Item_Name": "Teriyaki Chicken",
+          "discount_count": 16,
+          "total_discount_value": -178.5,
+          "avg_discount": -11.15625
+        },
+        {
+          "Item_Name": "Hamachi Crudo",
+          "discount_count": 19,
+          "total_discount_value": -159.6,
+          "avg_discount": -8.4
+        },
+        {
+          "Item_Name": "Tempura Spot Prawns",
+          "discount_count": 18,
+          "total_discount_value": -151.8,
+          "avg_discount": -8.433333333333334
+        },
+        {
+          "Item_Name": "Roasted Beet Salad",
+          "discount_count": 16,
+          "total_discount_value": -150.45,
+          "avg_discount": -9.403125
+        },
+        {
+          "Item_Name": "Grilled Halibut",
+          "discount_count": 11,
+          "total_discount_value": -136.8,
+          "avg_discount": -12.436363636363637
+        },
+        {
+          "Item_Name": "Burrata & Heirloom Tomato",
+          "discount_count": 18,
+          "total_discount_value": -129.2,
+          "avg_discount": -7.177777777777777
+        },
+        {
+          "Item_Name": "Yuzu Cheesecake",
+          "discount_count": 20,
+          "total_discount_value": -123.2,
+          "avg_discount": -6.16
+        },
+        {
+          "Item_Name": "Yuzu Gimlet",
+          "discount_count": 22,
+          "total_discount_value": -119.85,
+          "avg_discount": -5.447727272727272
+        },
+        {
+          "Item_Name": "Pan-Seared Sablefish",
+          "discount_count": 10,
+          "total_discount_value": -118.9,
+          "avg_discount": -11.89
+        },
+        {
+          "Item_Name": "Wild Salmon Bowl",
+          "discount_count": 13,
+          "total_discount_value": -117.30000000000001,
+          "avg_discount": -9.023076923076925
+        },
+        {
+          "Item_Name": "Mushroom Risotto",
+          "discount_count": 12,
+          "total_discount_value": -106.80000000000001,
+          "avg_discount": -8.9
+        },
+        {
+          "Item_Name": "Dungeness Crab Cake",
+          "discount_count": 19,
+          "total_discount_value": -106.05000000000001,
+          "avg_discount": -5.581578947368421
+        },
+        {
+          "Item_Name": "Miso Glazed Eggplant",
+          "discount_count": 13,
+          "total_discount_value": -98.4,
+          "avg_discount": -7.56923076923077
+        },
+        {
+          "Item_Name": "Glass \u2014 Pinot Gris (BC)",
+          "discount_count": 13,
+          "total_discount_value": -97.6,
+          "avg_discount": -7.507692307692308
+        },
+        {
+          "Item_Name": "Seasonal Fruit Tart",
+          "discount_count": 17,
+          "total_discount_value": -96.75,
+          "avg_discount": -5.6911764705882355
+        },
+        {
+          "Item_Name": "Sakura Spritz",
+          "discount_count": 11,
+          "total_discount_value": -91.2,
+          "avg_discount": -8.290909090909091
+        },
+        {
+          "Item_Name": "Glass \u2014 Chardonnay (Okanagan)",
+          "discount_count": 17,
+          "total_discount_value": -87.3,
+          "avg_discount": -5.135294117647058
+        },
+        {
+          "Item_Name": "Fresh Juice (Seasonal)",
+          "discount_count": 22,
+          "total_discount_value": -86.0,
+          "avg_discount": -3.909090909090909
+        },
+        {
+          "Item_Name": "Wagyu Steak & Eggs",
+          "discount_count": 4,
+          "total_discount_value": -69.6,
+          "avg_discount": -17.4
+        },
+        {
+          "Item_Name": "Matcha Panna Cotta",
+          "discount_count": 17,
+          "total_discount_value": -67.9,
+          "avg_discount": -3.994117647058824
+        },
+        {
+          "Item_Name": "Chocolate Lava Cake",
+          "discount_count": 17,
+          "total_discount_value": -67.14999999999999,
+          "avg_discount": -3.9499999999999993
+        },
+        {
+          "Item_Name": "Glass \u2014 Cabernet Sauvignon",
+          "discount_count": 11,
+          "total_discount_value": -62.0,
+          "avg_discount": -5.636363636363637
+        },
+        {
+          "Item_Name": "Ember Old Fashioned",
+          "discount_count": 10,
+          "total_discount_value": -59.4,
+          "avg_discount": -5.9399999999999995
+        },
+        {
+          "Item_Name": "Craft IPA (Brassneck)",
+          "discount_count": 9,
+          "total_discount_value": -54.5,
+          "avg_discount": -6.055555555555555
+        },
+        {
+          "Item_Name": "Espresso",
+          "discount_count": 21,
+          "total_discount_value": -52.75,
+          "avg_discount": -2.511904761904762
+        },
+        {
+          "Item_Name": "Matcha Latte",
+          "discount_count": 15,
+          "total_discount_value": -51.65,
+          "avg_discount": -3.4433333333333334
+        },
+        {
+          "Item_Name": "Negroni",
+          "discount_count": 9,
+          "total_discount_value": -51.0,
+          "avg_discount": -5.666666666666667
+        },
+        {
+          "Item_Name": "Sparkling Water",
+          "discount_count": 15,
+          "total_discount_value": -43.75,
+          "avg_discount": -2.9166666666666665
+        },
+        {
+          "Item_Name": "Glass \u2014 Pinot Noir (BC)",
+          "discount_count": 8,
+          "total_discount_value": -35.15,
+          "avg_discount": -4.39375
+        },
+        {
+          "Item_Name": "Glass \u2014 Ros\u00e9",
+          "discount_count": 10,
+          "total_discount_value": -32.25,
+          "avg_discount": -3.225
+        },
+        {
+          "Item_Name": "Mimosa",
+          "discount_count": 7,
+          "total_discount_value": -31.799999999999997,
+          "avg_discount": -4.542857142857143
+        },
+        {
+          "Item_Name": "Eggs Benedict (Salmon)",
+          "discount_count": 2,
+          "total_discount_value": -28.8,
+          "avg_discount": -14.4
+        },
+        {
+          "Item_Name": "Japanese Souffle Pancakes",
+          "discount_count": 2,
+          "total_discount_value": -24.2,
+          "avg_discount": -12.1
+        },
+        {
+          "Item_Name": "Japanese Lager (Asahi)",
+          "discount_count": 12,
+          "total_discount_value": -22.95,
+          "avg_discount": -1.9124999999999999
+        },
+        {
+          "Item_Name": "Pacific Mule",
+          "discount_count": 5,
+          "total_discount_value": -22.4,
+          "avg_discount": -4.4799999999999995
+        },
+        {
+          "Item_Name": "Local Pilsner (33 Acres)",
+          "discount_count": 6,
+          "total_discount_value": -14.4,
+          "avg_discount": -2.4
+        },
+        {
+          "Item_Name": "Avocado Toast & Poached Eggs",
+          "discount_count": 4,
+          "total_discount_value": -13.0,
+          "avg_discount": -3.25
+        }
+      ]
+    }
+  }
+}

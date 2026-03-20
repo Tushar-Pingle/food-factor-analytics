@@ -402,8 +402,11 @@ def standardize_labor(results: Dict[str, Any]) -> Dict[str, Any]:
                 "day_of_week": str(day_name),
             })
 
-    # FOH/BOH split
-    foh_boh_df = _safe_get(labor_results, "foh_boh_split", pd.DataFrame())
+    # FOH/BOH split — result is a dict with "breakdown" DataFrame
+    foh_boh_raw = _safe_get(labor_results, "foh_boh_split", {})
+    foh_boh_df = foh_boh_raw.get("breakdown", pd.DataFrame()) if isinstance(foh_boh_raw, dict) else foh_boh_raw
+    if not isinstance(foh_boh_df, pd.DataFrame):
+        foh_boh_df = pd.DataFrame()
     foh_boh_split = []
     if not foh_boh_df.empty:
         for _, row in foh_boh_df.iterrows():

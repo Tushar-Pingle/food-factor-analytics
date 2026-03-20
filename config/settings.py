@@ -53,15 +53,21 @@ DAY_ORDER: List[str] = [
 # ── Industry Benchmarks — Upscale Casual (Canada) ───────────────────────
 BENCHMARKS: Dict[str, float] = {
     "food_cost_pct":        0.30,    # 28–32 % target
-    "labor_cost_pct":       0.28,    # 25–30 % target
+    "food_cost_pct_max":    0.35,    # red alert above 35 %
+    "labor_cost_pct":       0.28,    # 25–30 % target (Square alias)
+    "labor_pct":            0.28,    # 25–30 % target (Lightspeed alias)
+    "labor_pct_max":        0.33,    # red alert above 33 %
     "prime_cost_pct":       0.60,    # food + labor < 60 %
     "average_check_lunch":  40.00,
     "average_check_dinner": 75.00,
+    "avg_tip_pct":          0.18,    # 18 % average tip target
     "void_rate_max":        0.02,    # > 2 % warrants investigation
     "refund_rate_max":      0.01,    # > 1 % warrants investigation
     "discount_rate_max":    0.05,    # > 5 % is aggressive
-    "noshow_rate_target":   0.05,    # < 5 % is excellent
+    "noshow_rate_target":   0.05,    # < 5 % is excellent (Square alias)
+    "no_show_rate_max":     0.10,    # > 10 % is critical (Lightspeed alias)
     "delivery_margin_min":  0.60,    # net payout / gross > 60 %
+    "delivery_net_margin":  0.60,    # Lightspeed alias
     "splh_target":          55.00,   # Sales Per Labor Hour
     "revpash_target":       12.00,   # Revenue Per Available Seat Hour
     "comp_rate_max":        0.015,   # > 1.5 % needs review

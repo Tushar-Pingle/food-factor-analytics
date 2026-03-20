@@ -1,0 +1,573 @@
+{
+  "daily_trend": [
+    {
+      "date": "2026-03-01T00:00:00",
+      "net_revenue": 14751.0,
+      "transactions": 99,
+      "covers": 257,
+      "avg_check": 149.0,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-03-02T00:00:00",
+      "net_revenue": 12509.15,
+      "transactions": 68,
+      "covers": 176,
+      "avg_check": 183.9580882352941,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-03-03T00:00:00",
+      "net_revenue": 14704.05,
+      "transactions": 77,
+      "covers": 206,
+      "avg_check": 190.9616883116883,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-03-04T00:00:00",
+      "net_revenue": 13165.25,
+      "transactions": 74,
+      "covers": 200,
+      "avg_check": 177.90878378378378,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-03-05T00:00:00",
+      "net_revenue": 16477.25,
+      "transactions": 93,
+      "covers": 248,
+      "avg_check": 177.1747311827957,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-03-06T00:00:00",
+      "net_revenue": 18547.85,
+      "transactions": 104,
+      "covers": 260,
+      "avg_check": 178.34471153846152,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-03-07T00:00:00",
+      "net_revenue": 23031.9,
+      "transactions": 120,
+      "covers": 319,
+      "avg_check": 191.9325,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-03-08T00:00:00",
+      "net_revenue": 15831.7,
+      "transactions": 107,
+      "covers": 275,
+      "avg_check": 147.95981308411217,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-03-09T00:00:00",
+      "net_revenue": 11194.6,
+      "transactions": 61,
+      "covers": 163,
+      "avg_check": 183.51803278688524,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-03-10T00:00:00",
+      "net_revenue": 12136.15,
+      "transactions": 67,
+      "covers": 179,
+      "avg_check": 181.1365671641791,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-03-11T00:00:00",
+      "net_revenue": 15280.85,
+      "transactions": 83,
+      "covers": 223,
+      "avg_check": 184.1066265060241,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-03-12T00:00:00",
+      "net_revenue": 19819.45,
+      "transactions": 107,
+      "covers": 289,
+      "avg_check": 185.2285046728972,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-03-13T00:00:00",
+      "net_revenue": 20616.9,
+      "transactions": 117,
+      "covers": 293,
+      "avg_check": 176.2128205128205,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-03-14T00:00:00",
+      "net_revenue": 24878.85,
+      "transactions": 140,
+      "covers": 359,
+      "avg_check": 177.70607142857142,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-03-15T00:00:00",
+      "net_revenue": 15707.05,
+      "transactions": 105,
+      "covers": 280,
+      "avg_check": 149.5909523809524,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-03-16T00:00:00",
+      "net_revenue": 10954.4,
+      "transactions": 58,
+      "covers": 148,
+      "avg_check": 188.86896551724138,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-03-17T00:00:00",
+      "net_revenue": 11135.95,
+      "transactions": 65,
+      "covers": 162,
+      "avg_check": 171.3223076923077,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-03-18T00:00:00",
+      "net_revenue": 12658.8,
+      "transactions": 74,
+      "covers": 181,
+      "avg_check": 171.06486486486486,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-03-19T00:00:00",
+      "net_revenue": 17583.8,
+      "transactions": 97,
+      "covers": 257,
+      "avg_check": 181.2762886597938,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-03-20T00:00:00",
+      "net_revenue": 20270.65,
+      "transactions": 112,
+      "covers": 291,
+      "avg_check": 180.98794642857143,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-03-21T00:00:00",
+      "net_revenue": 21585.85,
+      "transactions": 116,
+      "covers": 307,
+      "avg_check": 186.08491379310342,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-03-22T00:00:00",
+      "net_revenue": 14499.7,
+      "transactions": 101,
+      "covers": 254,
+      "avg_check": 143.56138613861387,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-03-23T00:00:00",
+      "net_revenue": 11741.2,
+      "transactions": 65,
+      "covers": 172,
+      "avg_check": 180.63384615384618,
+      "day_of_week": "Monday"
+    },
+    {
+      "date": "2026-03-24T00:00:00",
+      "net_revenue": 13043.0,
+      "transactions": 77,
+      "covers": 187,
+      "avg_check": 169.3896103896104,
+      "day_of_week": "Tuesday"
+    },
+    {
+      "date": "2026-03-25T00:00:00",
+      "net_revenue": 14834.15,
+      "transactions": 78,
+      "covers": 210,
+      "avg_check": 190.18141025641026,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "date": "2026-03-26T00:00:00",
+      "net_revenue": 19572.15,
+      "transactions": 110,
+      "covers": 273,
+      "avg_check": 177.92863636363637,
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2026-03-27T00:00:00",
+      "net_revenue": 20184.35,
+      "transactions": 111,
+      "covers": 280,
+      "avg_check": 181.84099099099097,
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2026-03-28T00:00:00",
+      "net_revenue": 22380.2,
+      "transactions": 122,
+      "covers": 325,
+      "avg_check": 183.44426229508198,
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2026-03-29T00:00:00",
+      "net_revenue": 15819.2,
+      "transactions": 110,
+      "covers": 277,
+      "avg_check": 143.8109090909091,
+      "day_of_week": "Sunday"
+    },
+    {
+      "date": "2026-03-30T00:00:00",
+      "net_revenue": 11224.55,
+      "transactions": 62,
+      "covers": 158,
+      "avg_check": 181.04112903225806,
+      "day_of_week": "Monday"
+    }
+  ],
+  "day_of_week": [
+    {
+      "day": "Monday",
+      "avg_daily_revenue": 11524.78,
+      "avg_transactions": 62.8,
+      "avg_covers": 163.4,
+      "avg_check": 183.51560509554142,
+      "pct_of_total": 0.1185335621974701
+    },
+    {
+      "day": "Tuesday",
+      "avg_daily_revenue": 12754.7875,
+      "avg_transactions": 71.5,
+      "avg_covers": 183.5,
+      "avg_check": 178.38863636363638,
+      "pct_of_total": 0.1049474539173339
+    },
+    {
+      "day": "Wednesday",
+      "avg_daily_revenue": 13984.7625,
+      "avg_transactions": 77.25,
+      "avg_covers": 203.5,
+      "avg_check": 181.03252427184466,
+      "pct_of_total": 0.11506779066398475
+    },
+    {
+      "day": "Thursday",
+      "avg_daily_revenue": 18363.1625,
+      "avg_transactions": 101.75,
+      "avg_covers": 266.75,
+      "avg_check": 180.4733415233415,
+      "pct_of_total": 0.151093630548158
+    },
+    {
+      "day": "Friday",
+      "avg_daily_revenue": 19904.9375,
+      "avg_transactions": 111.0,
+      "avg_covers": 281.0,
+      "avg_check": 179.32376126126127,
+      "pct_of_total": 0.16377948366514625
+    },
+    {
+      "day": "Saturday",
+      "avg_daily_revenue": 22969.2,
+      "avg_transactions": 124.5,
+      "avg_covers": 327.5,
+      "avg_check": 184.49156626506024,
+      "pct_of_total": 0.18899249074263494
+    },
+    {
+      "day": "Sunday",
+      "avg_daily_revenue": 15321.73,
+      "avg_transactions": 104.4,
+      "avg_covers": 268.6,
+      "avg_check": 146.75986590038312,
+      "pct_of_total": 0.15758558826527216
+    }
+  ],
+  "daypart": [
+    {
+      "daypart": "Brunch",
+      "net_revenue": 24366.55,
+      "transactions": 238,
+      "avg_check": 102.38046218487395,
+      "pct_of_revenue": 0.050122500732556544
+    },
+    {
+      "daypart": "Lunch",
+      "net_revenue": 142226.4,
+      "transactions": 785,
+      "avg_check": 181.18012738853503,
+      "pct_of_revenue": 0.2925626663679873
+    },
+    {
+      "daypart": "Dinner",
+      "net_revenue": 319547.0,
+      "transactions": 1757,
+      "avg_check": 181.87080250426865,
+      "pct_of_revenue": 0.6573148328994562
+    }
+  ],
+  "order_type": [
+    {
+      "order_type": "Dine-In",
+      "net_revenue": 425258.2,
+      "transactions": 2432,
+      "avg_check": 174.8594572368421,
+      "pct_of_revenue": 0.8747649725146021
+    },
+    {
+      "order_type": "Takeout",
+      "net_revenue": 60881.75,
+      "transactions": 348,
+      "avg_check": 174.94755747126436,
+      "pct_of_revenue": 0.12523502748539797
+    }
+  ],
+  "category_performance": [
+    {
+      "category": "Mains",
+      "net_revenue": 250025.7,
+      "quantity_sold": 6005,
+      "margin_pct": 0.6516452508682107,
+      "food_cost_pct": 0.3483547491317892,
+      "pct_of_revenue": 0.506526172100104
+    },
+    {
+      "category": "Appetizers",
+      "net_revenue": 85830.9,
+      "quantity_sold": 4261,
+      "margin_pct": 0.6534041935946144,
+      "food_cost_pct": 0.3465958064053855,
+      "pct_of_revenue": 0.1738845135716321
+    },
+    {
+      "category": "Wine",
+      "net_revenue": 38467.7,
+      "quantity_sold": 2214,
+      "margin_pct": 0.7310138115873838,
+      "food_cost_pct": 0.26898618841261634,
+      "pct_of_revenue": 0.0779315759559724
+    },
+    {
+      "category": "Cocktails",
+      "net_revenue": 37897.15,
+      "quantity_sold": 2278,
+      "margin_pct": 0.7536440075309092,
+      "food_cost_pct": 0.24635599246909068,
+      "pct_of_revenue": 0.07677570074997672
+    },
+    {
+      "category": "Desserts",
+      "net_revenue": 37023.0,
+      "quantity_sold": 2414,
+      "margin_pct": 0.7620052399859547,
+      "food_cost_pct": 0.23799476001404535,
+      "pct_of_revenue": 0.07500476338897222
+    },
+    {
+      "category": "Brunch",
+      "net_revenue": 16818.2,
+      "quantity_sold": 824,
+      "margin_pct": 0.7133129585805853,
+      "food_cost_pct": 0.2866870414194147,
+      "pct_of_revenue": 0.03407193127592071
+    },
+    {
+      "category": "Non-Alcoholic",
+      "net_revenue": 14593.85,
+      "quantity_sold": 2360,
+      "margin_pct": 0.8030437478801001,
+      "food_cost_pct": 0.1969562521198998,
+      "pct_of_revenue": 0.02956562856019642
+    },
+    {
+      "category": "Beer",
+      "net_revenue": 12952.15,
+      "quantity_sold": 1399,
+      "margin_pct": 0.7044042880911663,
+      "food_cost_pct": 0.29559571190883366,
+      "pct_of_revenue": 0.02623971439722541
+    }
+  ],
+  "top_items": [
+    {
+      "item_name": "Wagyu Striploin 8oz",
+      "category": "Mains",
+      "quantity_sold": 567,
+      "net_revenue": 35277.1,
+      "avg_price": 62.21710758377425,
+      "margin_pct": 0.6013958063446259
+    },
+    {
+      "item_name": "Lamb Rack",
+      "category": "Mains",
+      "quantity_sold": 606,
+      "net_revenue": 31596.0,
+      "avg_price": 52.13861386138614,
+      "margin_pct": 0.6010634257500949
+    },
+    {
+      "item_name": "Miso-Braised Short Rib",
+      "category": "Mains",
+      "quantity_sold": 626,
+      "net_revenue": 28500.8,
+      "avg_price": 45.52843450479233,
+      "margin_pct": 0.6617498456183687
+    },
+    {
+      "item_name": "Grilled Halibut",
+      "category": "Mains",
+      "quantity_sold": 602,
+      "net_revenue": 27911.0,
+      "avg_price": 46.363787375415285,
+      "margin_pct": 0.603138547526065
+    },
+    {
+      "item_name": "Pan-Seared Sablefish",
+      "category": "Mains",
+      "quantity_sold": 593,
+      "net_revenue": 25557.5,
+      "avg_price": 43.098650927487355,
+      "margin_pct": 0.6491769539274186
+    },
+    {
+      "item_name": "Duck Breast & Soba",
+      "category": "Mains",
+      "quantity_sold": 624,
+      "net_revenue": 24678.7,
+      "avg_price": 39.54919871794872,
+      "margin_pct": 0.6548602641143982
+    },
+    {
+      "item_name": "Seafood Linguine",
+      "category": "Mains",
+      "quantity_sold": 604,
+      "net_revenue": 22643.2,
+      "avg_price": 37.4887417218543,
+      "margin_pct": 0.6638990955342001
+    },
+    {
+      "item_name": "Wild Salmon Bowl",
+      "category": "Mains",
+      "quantity_sold": 588,
+      "net_revenue": 20729.7,
+      "avg_price": 35.2545918367347,
+      "margin_pct": 0.6913877190697405
+    },
+    {
+      "item_name": "Mushroom Risotto",
+      "category": "Mains",
+      "quantity_sold": 601,
+      "net_revenue": 17566.2,
+      "avg_price": 29.22828618968386,
+      "margin_pct": 0.7605059716956428
+    },
+    {
+      "item_name": "Teriyaki Chicken",
+      "category": "Mains",
+      "quantity_sold": 594,
+      "net_revenue": 15565.5,
+      "avg_price": 26.204545454545453,
+      "margin_pct": 0.7420294882914137
+    }
+  ],
+  "bottom_items": [
+    {
+      "item_name": "Avocado Toast & Poached Eggs",
+      "category": "Brunch",
+      "quantity_sold": 135,
+      "net_revenue": 2687.0,
+      "avg_price": 19.903703703703705,
+      "margin_pct": 0.7487904726460737
+    },
+    {
+      "item_name": "Eggs Benedict (Salmon)",
+      "category": "Brunch",
+      "quantity_sold": 119,
+      "net_revenue": 2888.8,
+      "avg_price": 24.275630252100843,
+      "margin_pct": 0.7034062586541124
+    },
+    {
+      "item_name": "Sparkling Water",
+      "category": "Non-Alcoholic",
+      "quantity_sold": 598,
+      "net_revenue": 2946.25,
+      "avg_price": 4.926839464882943,
+      "margin_pct": 0.8477725922783199
+    },
+    {
+      "item_name": "Espresso",
+      "category": "Non-Alcoholic",
+      "quantity_sold": 615,
+      "net_revenue": 3093.25,
+      "avg_price": 5.029674796747967,
+      "margin_pct": 0.85088499151378
+    },
+    {
+      "item_name": "Japanese Souffle Pancakes",
+      "category": "Brunch",
+      "quantity_sold": 144,
+      "net_revenue": 3143.8,
+      "avg_price": 21.831944444444446,
+      "margin_pct": 0.7783065080475857
+    },
+    {
+      "item_name": "Mimosa",
+      "category": "Brunch",
+      "quantity_sold": 275,
+      "net_revenue": 3268.2,
+      "avg_price": 11.884363636363636,
+      "margin_pct": 0.7980539746649532
+    },
+    {
+      "item_name": "Matcha Latte",
+      "category": "Non-Alcoholic",
+      "quantity_sold": 549,
+      "net_revenue": 3856.35,
+      "avg_price": 7.02431693989071,
+      "margin_pct": 0.8006923645416002
+    },
+    {
+      "item_name": "Local Pilsner (33 Acres)",
+      "category": "Beer",
+      "quantity_sold": 470,
+      "net_revenue": 4215.6,
+      "avg_price": 8.96936170212766,
+      "margin_pct": 0.7190435525192144
+    },
+    {
+      "item_name": "Japanese Lager (Asahi)",
+      "category": "Beer",
+      "quantity_sold": 476,
+      "net_revenue": 4261.05,
+      "avg_price": 8.951785714285714,
+      "margin_pct": 0.6983842010771993
+    },
+    {
+      "item_name": "Craft IPA (Brassneck)",
+      "category": "Beer",
+      "quantity_sold": 453,
+      "net_revenue": 4475.5,
+      "avg_price": 9.879690949227372,
+      "margin_pct": 0.6963467768964362
+    }
+  ],
+  "hourly_heatmap": [],
+  "extended": {}
+}
