@@ -1,0 +1,19 @@
+{
+  "total_labor_cost": null,
+  "total_paid_hours": null,
+  "labor_pct": null,
+  "splh": null,
+  "headcount": null,
+  "total_overtime_hours": null,
+  "overtime_premium_cost": null,
+  "benchmark_labor_pct": null,
+  "benchmark_splh": null,
+  "daily_labor": [],
+  "foh_boh_split": [],
+  "by_role": [],
+  "overtime_detail": [],
+  "splh_trend": [],
+  "extended": {
+    "note": "Labor analysis not available in TouchBistro"
+  }
+}

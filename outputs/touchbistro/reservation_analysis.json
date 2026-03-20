@@ -1,0 +1,17 @@
+{
+  "total_reservations": null,
+  "completed": null,
+  "no_shows": null,
+  "noshow_rate": null,
+  "cancel_rate": null,
+  "avg_party_size": null,
+  "total_covers": null,
+  "avg_turn_time": null,
+  "avg_wait_time": null,
+  "revpash": null,
+  "by_source": [],
+  "noshow_by_day": [],
+  "extended": {
+    "note": "Reservation analysis not available in TouchBistro"
+  }
+}

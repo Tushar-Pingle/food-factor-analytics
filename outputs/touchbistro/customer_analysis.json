@@ -1,0 +1,9 @@
+{
+  "total_customers": null,
+  "repeat_rate": null,
+  "avg_spend_per_visit": null,
+  "avg_visits": null,
+  "extended": {
+    "note": "Customer analysis not available in TouchBistro"
+  }
+}

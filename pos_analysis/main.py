@@ -116,14 +116,15 @@ def run_touchbistro(data_dir: Path, output_dir: Path) -> None:
     logger.info("Loaded %d datasets", len(datasets))
 
     # Step 2: Analyze
+    detailed_sales = datasets["detailed_sales"]
     results = {}
-    results["sales"] = run_sales_analysis(datasets)
+    results["sales"] = run_sales_analysis(detailed_sales)
     logger.info("Sales analysis complete: %d metrics", len(results["sales"]))
 
-    results["payments"] = run_payment_analysis(datasets)
+    results["payments"] = run_payment_analysis(datasets["payments"], detailed_sales)
     logger.info("Payment analysis complete: %d metrics", len(results["payments"]))
 
-    results["ops_flags"] = run_operational_flags(datasets)
+    results["ops_flags"] = run_operational_flags(detailed_sales)
     logger.info("Operational flags complete: %d metrics", len(results["ops_flags"]))
 
     # Step 3: Charts

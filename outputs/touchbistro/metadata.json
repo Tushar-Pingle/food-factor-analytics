@@ -1,0 +1,32 @@
+{
+  "pos_system": "touchbistro",
+  "restaurant_name": "Coastal Table",
+  "location": "Vancouver, BC",
+  "report_period": "March 2026",
+  "period_start": "2026-01-01",
+  "period_end": "2026-02-28",
+  "operating_days": 30,
+  "total_seats": null,
+  "generated_at": "2026-03-19T18:44:30.156230",
+  "data_quality": [
+    {
+      "table": "labor",
+      "issue": "Labor analysis not available in TouchBistro",
+      "severity": "info"
+    },
+    {
+      "table": "delivery",
+      "issue": "Delivery analysis not available in TouchBistro",
+      "severity": "info"
+    },
+    {
+      "table": "reservations",
+      "issue": "Reservation analysis not available in TouchBistro",
+      "severity": "info"
+    }
+  ],
+  "table_row_counts": {
+    "transactions": 2932
+  },
+  "extended": {}
+}

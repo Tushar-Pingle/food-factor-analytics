@@ -1,0 +1,15 @@
+{
+  "total_orders": null,
+  "completed_orders": null,
+  "canceled_orders": null,
+  "cancel_rate": null,
+  "gross_revenue": null,
+  "net_payout": null,
+  "effective_margin_pct": null,
+  "avg_order_value": null,
+  "platform_comparison": [],
+  "daily_trend": [],
+  "extended": {
+    "note": "Delivery analysis not available in TouchBistro"
+  }
+}

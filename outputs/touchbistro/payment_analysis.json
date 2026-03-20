@@ -1,0 +1,123 @@
+{
+  "methods": [
+    {
+      "method": "Visa",
+      "transaction_count": 1161,
+      "total_amount": 207030.62,
+      "total_tips": 30378.45,
+      "pct_of_revenue": 38.8,
+      "avg_transaction": 178.32,
+      "avg_tip_pct": 17.2
+    },
+    {
+      "method": "Mastercard",
+      "transaction_count": 799,
+      "total_amount": 147217.9,
+      "total_tips": 21120.81,
+      "pct_of_revenue": 27.6,
+      "avg_transaction": 184.25,
+      "avg_tip_pct": 16.7
+    },
+    {
+      "method": "Interac Debit",
+      "transaction_count": 513,
+      "total_amount": 96087.7,
+      "total_tips": 14086.89,
+      "pct_of_revenue": 18.0,
+      "avg_transaction": 187.31,
+      "avg_tip_pct": 17.2
+    },
+    {
+      "method": "Cash",
+      "transaction_count": 288,
+      "total_amount": 50891.28,
+      "total_tips": 7808.58,
+      "pct_of_revenue": 9.5,
+      "avg_transaction": 176.71,
+      "avg_tip_pct": 18.1
+    },
+    {
+      "method": "Amex",
+      "transaction_count": 96,
+      "total_amount": 18133.58,
+      "total_tips": 2689.85,
+      "pct_of_revenue": 3.4,
+      "avg_transaction": 188.89,
+      "avg_tip_pct": 17.4
+    },
+    {
+      "method": "Gift Card",
+      "transaction_count": 79,
+      "total_amount": 14377.92,
+      "total_tips": 2038.86,
+      "pct_of_revenue": 2.7,
+      "avg_transaction": 182.0,
+      "avg_tip_pct": 16.5
+    }
+  ],
+  "overall_tip_rate": 0.184,
+  "total_tips": 77978.06,
+  "discount_rate_pct": 0.009399999999999999,
+  "total_discounts": 4027.14,
+  "extended": {
+    "tip_analysis": {
+      "overall_tip_pct": 18.4,
+      "total_tips": 77978.06,
+      "by_payment": [
+        {
+          "payment": "Visa",
+          "avg_tip_pct": 17.54547697192913,
+          "total_tips": 30305.68,
+          "bill_count": 1160
+        },
+        {
+          "payment": "Mastercard",
+          "avg_tip_pct": 17.108090633633605,
+          "total_tips": 21103.6,
+          "bill_count": 799
+        },
+        {
+          "payment": "Interac Debit",
+          "avg_tip_pct": 17.63772026397142,
+          "total_tips": 14067.9,
+          "bill_count": 511
+        },
+        {
+          "payment": "Cash",
+          "avg_tip_pct": 18.66479051177571,
+          "total_tips": 7808.58,
+          "bill_count": 287
+        },
+        {
+          "payment": "Amex",
+          "avg_tip_pct": 17.745632686148,
+          "total_tips": 2689.85,
+          "bill_count": 96
+        },
+        {
+          "payment": "Gift Card",
+          "avg_tip_pct": 17.041525941514486,
+          "total_tips": 2002.45,
+          "bill_count": 79
+        }
+      ],
+      "by_daypart": [
+        {
+          "daypart": "Breakfast/Brunch",
+          "avg_tip_pct": 17.871504690399988,
+          "total_tips": 1230.08
+        },
+        {
+          "daypart": "Dinner",
+          "avg_tip_pct": 17.525104366527216,
+          "total_tips": 54459.71
+        },
+        {
+          "daypart": "Lunch",
+          "avg_tip_pct": 17.562706619196554,
+          "total_tips": 22288.27
+        }
+      ]
+    }
+  }
+}
