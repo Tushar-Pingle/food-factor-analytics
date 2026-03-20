@@ -26,7 +26,6 @@ from typing import Dict, List, Optional, Tuple
 import logging
 
 from config.settings import (
-    DAYPART_DEFINITIONS,
     DATA_DIR,
     TAX_RATES,
 )

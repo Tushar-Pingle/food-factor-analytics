@@ -25,7 +25,7 @@ from plotly.subplots import make_subplots
 
 from config import settings
 from config.brand import (
-    COLORS, CHART_SERIES_COLORS, FONT_FAMILY,
+    COLORS, CHART_SERIES_COLORS as CHART_PALETTE, FONT_FAMILY,
     TITLE_FONT_SIZE, AXIS_FONT_SIZE, TICK_FONT_SIZE,
     DEFAULT_WIDTH, DEFAULT_HEIGHT, get_plotly_template,
 )
